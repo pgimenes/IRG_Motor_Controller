@@ -1,0 +1,380 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 61723CB1
+P 2000 1300
+F 0 "Q?" V 2342 1300 50  0000 C CNN
+F 1 "Q_NMOS_GSD" V 2251 1300 50  0000 C CNN
+F 2 "" H 2200 1400 50  0001 C CNN
+F 3 "~" H 2000 1300 50  0001 C CNN
+	1    2000 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 61724D59
+P 3450 1200
+F 0 "L?" V 3640 1200 50  0000 C CNN
+F 1 "340u" V 3549 1200 50  0000 C CNN
+F 2 "" H 3450 1200 50  0001 C CNN
+F 3 "~" H 3450 1200 50  0001 C CNN
+	1    3450 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 61725552
+P 2750 1650
+F 0 "Q?" H 2954 1696 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 2954 1605 50  0000 L CNN
+F 2 "" H 2950 1750 50  0001 C CNN
+F 3 "~" H 2750 1650 50  0001 C CNN
+	1    2750 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61726121
+P 4200 1700
+F 0 "C?" H 4315 1746 50  0000 L CNN
+F 1 "68u" H 4315 1655 50  0000 L CNN
+F 2 "" H 4238 1550 50  0001 C CNN
+F 3 "~" H 4200 1700 50  0001 C CNN
+	1    4200 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 1200 4200 1200
+Wire Wire Line
+	2200 1200 2850 1200
+Wire Wire Line
+	2850 1450 2850 1200
+Connection ~ 2850 1200
+Wire Wire Line
+	2850 1200 3300 1200
+Wire Wire Line
+	2850 1850 2850 2150
+Wire Wire Line
+	2850 2150 4200 2150
+Wire Wire Line
+	4200 1200 4200 1550
+Wire Wire Line
+	4200 1850 4200 2150
+Connection ~ 2850 2150
+Text Notes 4850 2450 0    50   ~ 0
+Buck SMPS
+Connection ~ 4200 2150
+$Comp
+L power:GND #PWR?
+U 1 1 61730ED9
+P 1550 2200
+F 0 "#PWR?" H 1550 1950 50  0001 C CNN
+F 1 "GND" H 1555 2027 50  0000 C CNN
+F 2 "" H 1550 2200 50  0001 C CNN
+F 3 "" H 1550 2200 50  0001 C CNN
+	1    1550 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 2200 1550 2150
+Connection ~ 1550 2150
+Wire Wire Line
+	1550 2150 2850 2150
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 61733146
+P 1050 1800
+F 0 "J?" H 968 1475 50  0000 C CNN
+F 1 "Vbat" H 968 1566 50  0000 C CNN
+F 2 "" H 1050 1800 50  0001 C CNN
+F 3 "~" H 1050 1800 50  0001 C CNN
+	1    1050 1800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1250 1200 1800 1200
+Wire Wire Line
+	1250 2150 1300 2150
+Wire Wire Line
+	1250 1700 1250 1200
+Wire Wire Line
+	1250 1800 1250 2150
+Wire Notes Line
+	850  850  850  2500
+Wire Notes Line
+	5300 850  5300 2500
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 61736651
+P 4900 1700
+F 0 "J?" H 4980 1692 50  0000 L CNN
+F 1 "V" H 4980 1601 50  0000 L CNN
+F 2 "" H 4900 1700 50  0001 C CNN
+F 3 "~" H 4900 1700 50  0001 C CNN
+	1    4900 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 2150 4700 1800
+Wire Wire Line
+	4200 2150 4700 2150
+Wire Notes Line
+	850  850  5300 850 
+Wire Notes Line
+	850  2500 5300 2500
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61737D0D
+P 1250 1200
+F 0 "TP?" H 1308 1318 50  0000 L CNN
+F 1 "TestPoint" H 1308 1227 50  0000 L CNN
+F 2 "" H 1450 1200 50  0001 C CNN
+F 3 "~" H 1450 1200 50  0001 C CNN
+	1    1250 1200
+	1    0    0    -1  
+$EndComp
+Connection ~ 1250 1200
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61738545
+P 1300 2150
+F 0 "TP?" H 1243 2176 50  0000 R CNN
+F 1 "TestPoint" H 1243 2267 50  0000 R CNN
+F 2 "" H 1500 2150 50  0001 C CNN
+F 3 "~" H 1500 2150 50  0001 C CNN
+	1    1300 2150
+	1    0    0    1   
+$EndComp
+Connection ~ 1300 2150
+Wire Wire Line
+	1300 2150 1550 2150
+Connection ~ 4200 1200
+Wire Wire Line
+	4200 1200 4700 1200
+Wire Wire Line
+	4700 1700 4700 1200
+Text Label 4700 1200 0    50   ~ 0
+Vinv
+Text Label 1250 1250 3    50   ~ 0
+Vbat
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 6173C2C7
+P 1200 3750
+F 0 "Q?" H 1404 3796 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 1404 3705 50  0000 L CNN
+F 2 "" H 1400 3850 50  0001 C CNN
+F 3 "~" H 1200 3750 50  0001 C CNN
+	1    1200 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 6173E1A5
+P 1200 4500
+F 0 "Q?" H 1404 4546 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 1404 4455 50  0000 L CNN
+F 2 "" H 1400 4600 50  0001 C CNN
+F 3 "~" H 1200 4500 50  0001 C CNN
+	1    1200 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 61743B21
+P 2300 3750
+F 0 "Q?" H 2504 3796 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 2504 3705 50  0000 L CNN
+F 2 "" H 2500 3850 50  0001 C CNN
+F 3 "~" H 2300 3750 50  0001 C CNN
+	1    2300 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 61743B27
+P 2300 4500
+F 0 "Q?" H 2504 4546 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 2504 4455 50  0000 L CNN
+F 2 "" H 2500 4600 50  0001 C CNN
+F 3 "~" H 2300 4500 50  0001 C CNN
+	1    2300 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 617456C1
+P 3350 3750
+F 0 "Q?" H 3554 3796 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 3554 3705 50  0000 L CNN
+F 2 "" H 3550 3850 50  0001 C CNN
+F 3 "~" H 3350 3750 50  0001 C CNN
+	1    3350 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 617456C7
+P 3350 4500
+F 0 "Q?" H 3554 4546 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 3554 4455 50  0000 L CNN
+F 2 "" H 3550 4600 50  0001 C CNN
+F 3 "~" H 3350 4500 50  0001 C CNN
+	1    3350 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 3550 1300 3400
+Wire Wire Line
+	3450 3400 3450 3550
+Connection ~ 1300 3400
+Wire Wire Line
+	1300 3400 2400 3400
+Wire Wire Line
+	2400 3550 2400 3400
+Connection ~ 2400 3400
+Wire Wire Line
+	2400 3400 3450 3400
+Wire Wire Line
+	1300 4300 1300 4100
+Wire Wire Line
+	2400 4300 2400 4100
+Wire Wire Line
+	3450 4300 3450 4100
+Wire Wire Line
+	1300 4100 1450 4100
+Connection ~ 1300 4100
+Wire Wire Line
+	1300 4100 1300 3950
+Wire Wire Line
+	2400 4100 2550 4100
+Connection ~ 2400 4100
+Wire Wire Line
+	2400 4100 2400 3950
+Wire Wire Line
+	3450 4100 3600 4100
+Connection ~ 3450 4100
+Wire Wire Line
+	3450 4100 3450 3950
+Wire Wire Line
+	1300 4700 1300 4850
+Wire Wire Line
+	1300 4850 2400 4850
+Wire Wire Line
+	3450 4850 3450 4700
+Wire Wire Line
+	2400 4700 2400 4850
+Connection ~ 2400 4850
+Wire Wire Line
+	2400 4850 3450 4850
+Connection ~ 1300 4850
+$Comp
+L power:GND #PWR?
+U 1 1 61749F7A
+P 1100 4950
+F 0 "#PWR?" H 1100 4700 50  0001 C CNN
+F 1 "GND" H 1105 4777 50  0000 C CNN
+F 2 "" H 1100 4950 50  0001 C CNN
+F 3 "" H 1100 4950 50  0001 C CNN
+	1    1100 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 4950 1100 4850
+Text Label 1100 3400 0    50   ~ 0
+Vinv
+Wire Wire Line
+	1100 3400 1300 3400
+Wire Wire Line
+	1100 4850 1300 4850
+Text Label 1450 4100 0    50   ~ 0
+Va
+Text Label 2550 4100 0    50   ~ 0
+Vb
+Text Label 3600 4100 0    50   ~ 0
+Vc
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 61750F4A
+P 4750 3550
+F 0 "J?" H 4830 3592 50  0000 L CNN
+F 1 "Conn_01x03" H 4830 3501 50  0000 L CNN
+F 2 "" H 4750 3550 50  0001 C CNN
+F 3 "~" H 4750 3550 50  0001 C CNN
+	1    4750 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3450 4550 3450
+Wire Wire Line
+	4550 3550 4350 3550
+Wire Wire Line
+	4350 3650 4550 3650
+Text Label 4350 3450 0    50   ~ 0
+Va
+Text Label 4350 3550 0    50   ~ 0
+Vb
+Text Label 4350 3650 0    50   ~ 0
+Vc
+Wire Notes Line
+	850  3200 850  5300
+Wire Notes Line
+	850  5300 5450 5300
+Wire Notes Line
+	5450 5300 5450 3200
+Wire Notes Line
+	5450 3200 850  3200
+Text Notes 4750 5250 0    50   ~ 0
+3-phase Inverter
+Text Label 1000 3750 0    50   ~ 0
+Vah
+Text Label 1000 4500 0    50   ~ 0
+Val
+Text Label 2100 3750 0    50   ~ 0
+Vbh
+Text Label 2100 4500 0    50   ~ 0
+Vbl
+Text Label 3150 3750 0    50   ~ 0
+Vch
+Text Label 3150 4500 0    50   ~ 0
+Vcl
+$Sheet
+S 300  9400 10750 7300
+U 61759921
+F0 "MCU" 50
+F1 "mcu.sch" 50
+$EndSheet
+$Comp
+L SamacSys_Parts:IR2153PBF U?
+U 1 1 61744949
+P 2300 6000
+F 0 "U?" H 2800 6265 50  0000 C CNN
+F 1 "IR2153PBF" H 2800 6174 50  0000 C CNN
+F 2 "DIP762W56P254L988H533Q8N" H 3150 6100 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/IR2153PBF.pdf" H 3150 6000 50  0001 L CNN
+F 4 "MOSFET/IGBT driver IR2153 DIP8 200mA Infineon IR2153PBF, Dual Half Bridge MOSFET Power Driver, 10  16.8 V, 8-Pin PDIP" H 3150 5900 50  0001 L CNN "Description"
+F 5 "5.33" H 3150 5800 50  0001 L CNN "Height"
+F 6 "Infineon" H 3150 5700 50  0001 L CNN "Manufacturer_Name"
+F 7 "IR2153PBF" H 3150 5600 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 3150 5500 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 3150 5400 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 3150 5300 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 3150 5200 50  0001 L CNN "Arrow Price/Stock"
+	1    2300 6000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
