@@ -186,22 +186,22 @@ $EndComp
 $Comp
 L bldc_controller-rescue:R_Small-Device R?
 U 1 1 617D7765
-P 18500 9050
-F 0 "R?" V 18304 9050 50  0000 C CNN
-F 1 "R_Small" V 18395 9050 50  0000 C CNN
-F 2 "" H 18500 9050 50  0001 C CNN
-F 3 "~" H 18500 9050 50  0001 C CNN
-	1    18500 9050
+P 18500 9150
+F 0 "R?" V 18304 9150 50  0000 C CNN
+F 1 "R_Small" V 18395 9150 50  0000 C CNN
+F 2 "" H 18500 9150 50  0001 C CNN
+F 3 "~" H 18500 9150 50  0001 C CNN
+	1    18500 9150
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	18400 8950 18300 8950
 Wire Wire Line
-	18300 9050 18400 9050
+	18300 9150 18400 9150
 Wire Wire Line
 	18600 8950 18750 8950
 Wire Wire Line
-	18600 9050 18750 9050
+	18600 9150 18750 9150
 Wire Wire Line
 	17200 9150 17300 9150
 Wire Wire Line
@@ -255,8 +255,6 @@ F 3 "~" V 17800 9600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	17700 9600 17300 9600
-Wire Wire Line
 	17300 9600 17300 10000
 $Comp
 L bldc_controller-rescue:R_Small-Device R?
@@ -272,46 +270,28 @@ $EndComp
 $Comp
 L bldc_controller-rescue:R_Small-Device R?
 U 1 1 617F0EDD
-P 18500 10200
-F 0 "R?" V 18304 10200 50  0000 C CNN
-F 1 "R_Small" V 18395 10200 50  0000 C CNN
-F 2 "" H 18500 10200 50  0001 C CNN
-F 3 "~" H 18500 10200 50  0001 C CNN
-	1    18500 10200
+P 18500 10300
+F 0 "R?" V 18304 10300 50  0000 C CNN
+F 1 "R_Small" V 18395 10300 50  0000 C CNN
+F 2 "" H 18500 10300 50  0001 C CNN
+F 3 "~" H 18500 10300 50  0001 C CNN
+	1    18500 10300
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	18400 10100 18300 10100
 Wire Wire Line
-	18300 10200 18400 10200
+	18300 10300 18400 10300
 Wire Wire Line
 	18600 10100 18750 10100
 Wire Wire Line
-	18600 10200 18750 10200
+	18600 10300 18750 10300
 Wire Wire Line
 	17200 10300 17300 10300
 Wire Wire Line
 	17900 9600 18300 9600
 Wire Wire Line
 	18300 9600 18300 10000
-$Comp
-L bldc_controller-rescue:IRS2003PBF-SamacSys_Parts IC?
-U 1 1 61804574
-P 17300 11200
-F 0 "IC?" H 17800 11465 50  0000 C CNN
-F 1 "IRS2003PBF" H 17800 11374 50  0000 C CNN
-F 2 "DIP762W56P254L988H533Q8N" H 18150 11300 50  0001 L CNN
-F 3 "http://uk.rs-online.com/web/p/products/0496000" H 18150 11200 50  0001 L CNN
-F 4 "Infineon IRS2003PBF Dual Half Bridge MOSFET Power Driver, 0.6A 8-Pin, PDIP" H 18150 11100 50  0001 L CNN "Description"
-F 5 "5.33" H 18150 11000 50  0001 L CNN "Height"
-F 6 "0496000" H 18150 10900 50  0001 L CNN "RS Part Number"
-F 7 "http://uk.rs-online.com/web/p/products/0496000" H 18150 10800 50  0001 L CNN "RS Price/Stock"
-F 8 "Infineon" H 18150 10700 50  0001 L CNN "Manufacturer_Name"
-F 9 "IRS2003PBF" H 18150 10600 50  0001 L CNN "Manufacturer_Part_Number"
-F 10 "70017392" H 18150 10500 50  0001 L CNN "Allied_Number"
-	1    17300 11200
-	1    0    0    -1  
-$EndComp
 $Comp
 L bldc_controller-rescue:GND-power #PWR?
 U 1 1 6180457C
@@ -341,8 +321,6 @@ F 3 "~" V 17800 10800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	17700 10800 17300 10800
-Wire Wire Line
 	17300 10800 17300 11200
 $Comp
 L bldc_controller-rescue:R_Small-Device R?
@@ -358,22 +336,20 @@ $EndComp
 $Comp
 L bldc_controller-rescue:R_Small-Device R?
 U 1 1 6180459B
-P 18500 11400
-F 0 "R?" V 18304 11400 50  0000 C CNN
-F 1 "R_Small" V 18395 11400 50  0000 C CNN
-F 2 "" H 18500 11400 50  0001 C CNN
-F 3 "~" H 18500 11400 50  0001 C CNN
-	1    18500 11400
+P 18500 11500
+F 0 "R?" V 18304 11500 50  0000 C CNN
+F 1 "R_Small" V 18395 11500 50  0000 C CNN
+F 2 "" H 18500 11500 50  0001 C CNN
+F 3 "~" H 18500 11500 50  0001 C CNN
+	1    18500 11500
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	18400 11300 18300 11300
 Wire Wire Line
-	18300 11400 18400 11400
+	18300 11500 18400 11500
 Wire Wire Line
-	18600 11300 18750 11300
-Wire Wire Line
-	18600 11400 18750 11400
+	18600 11500 18750 11500
 Wire Wire Line
 	17200 11500 17300 11500
 Wire Wire Line
@@ -1403,7 +1379,7 @@ Text GLabel 17100 11300 0    50   Input ~ 0
 DRIVE_C
 Text GLabel 18750 8950 2    50   Input ~ 0
 GATE_AH
-Text GLabel 18750 9050 2    50   Input ~ 0
+Text GLabel 18750 9150 2    50   Input ~ 0
 GATE_AL
 Text GLabel 14000 4000 0    50   Input ~ 0
 GATE_AH
@@ -1413,11 +1389,11 @@ Wire Wire Line
 	14300 5100 15750 5100
 Text GLabel 18750 10100 2    50   Input ~ 0
 GATE_BH
-Text GLabel 18750 10200 2    50   Input ~ 0
+Text GLabel 18750 10300 2    50   Input ~ 0
 GATE_BL
 Text GLabel 18750 11300 2    50   Input ~ 0
 GATE_CH
-Text GLabel 18750 11400 2    50   Input ~ 0
+Text GLabel 18750 11500 2    50   Input ~ 0
 GATE_CL
 Text GLabel 15450 4000 0    50   Input ~ 0
 GATE_BH
@@ -1454,7 +1430,7 @@ Wire Wire Line
 Wire Wire Line
 	18500 8450 18300 8450
 Connection ~ 18300 8450
-Text GLabel 18300 9150 2    50   Input ~ 0
+Text GLabel 18750 9050 2    50   Input ~ 0
 LO_A
 $Comp
 L bldc_controller-rescue:C_Small-Device C?
@@ -1490,10 +1466,8 @@ Wire Wire Line
 	18850 10800 18700 10800
 Wire Wire Line
 	18500 10800 18300 10800
-Text GLabel 18300 10300 2    50   Input ~ 0
+Text GLabel 18750 10200 2    50   Input ~ 0
 LO_B
-Text GLabel 18300 11500 2    50   Input ~ 0
-LO_C
 Connection ~ 18300 9600
 Connection ~ 18300 10800
 $Comp
@@ -1512,7 +1486,7 @@ L bldc_controller-rescue:Polyfuse-Device F?
 U 1 1 62131D2C
 P 9200 11100
 F 0 "F?" V 8975 11100 50  0000 C CNN
-F 1 "Polyfuse" V 9066 11100 50  0000 C CNN
+F 1 "Polyfuse 250mA" V 9066 11100 50  0000 C CNN
 F 2 "" H 9250 10900 50  0001 L CNN
 F 3 "~" H 9200 11100 50  0001 C CNN
 	1    9200 11100
@@ -2328,4 +2302,51 @@ Wire Wire Line
 Connection ~ 9100 14050
 Wire Wire Line
 	9100 14050 8900 14050
+Wire Wire Line
+	18300 9050 18750 9050
+Wire Wire Line
+	18300 10200 18750 10200
+Wire Wire Line
+	18600 11300 18750 11300
+Text GLabel 18750 11400 2    50   Input ~ 0
+LO_C
+$Comp
+L bldc_controller-rescue:IRS2003PBF-SamacSys_Parts IC?
+U 1 1 61804574
+P 17300 11200
+F 0 "IC?" H 17800 11465 50  0000 C CNN
+F 1 "IRS2003PBF" H 17800 11374 50  0000 C CNN
+F 2 "DIP762W56P254L988H533Q8N" H 18150 11300 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/0496000" H 18150 11200 50  0001 L CNN
+F 4 "Infineon IRS2003PBF Dual Half Bridge MOSFET Power Driver, 0.6A 8-Pin, PDIP" H 18150 11100 50  0001 L CNN "Description"
+F 5 "5.33" H 18150 11000 50  0001 L CNN "Height"
+F 6 "0496000" H 18150 10900 50  0001 L CNN "RS Part Number"
+F 7 "http://uk.rs-online.com/web/p/products/0496000" H 18150 10800 50  0001 L CNN "RS Price/Stock"
+F 8 "Infineon" H 18150 10700 50  0001 L CNN "Manufacturer_Name"
+F 9 "IRS2003PBF" H 18150 10600 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "70017392" H 18150 10500 50  0001 L CNN "Allied_Number"
+	1    17300 11200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18300 11400 18750 11400
+Text GLabel 17100 8450 0    50   Input ~ 0
+DRIVE_VCC
+Wire Wire Line
+	17100 8450 17300 8450
+Connection ~ 17300 8450
+Text GLabel 17100 9600 0    50   Input ~ 0
+DRIVE_VCC
+Text GLabel 17100 10800 0    50   Input ~ 0
+DRIVE_VCC
+Wire Wire Line
+	17100 9600 17300 9600
+Connection ~ 17300 9600
+Wire Wire Line
+	17300 9600 17700 9600
+Wire Wire Line
+	17100 10800 17300 10800
+Connection ~ 17300 10800
+Wire Wire Line
+	17300 10800 17700 10800
 $EndSCHEMATC
