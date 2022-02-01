@@ -186,22 +186,22 @@ $EndComp
 $Comp
 L bldc_controller-rescue:R_Small-Device R?
 U 1 1 617D7765
-P 18500 9050
-F 0 "R?" V 18304 9050 50  0000 C CNN
-F 1 "R_Small" V 18395 9050 50  0000 C CNN
-F 2 "" H 18500 9050 50  0001 C CNN
-F 3 "~" H 18500 9050 50  0001 C CNN
-	1    18500 9050
+P 18500 9150
+F 0 "R?" V 18304 9150 50  0000 C CNN
+F 1 "R_Small" V 18395 9150 50  0000 C CNN
+F 2 "" H 18500 9150 50  0001 C CNN
+F 3 "~" H 18500 9150 50  0001 C CNN
+	1    18500 9150
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	18400 8950 18300 8950
 Wire Wire Line
-	18300 9050 18400 9050
+	18300 9150 18400 9150
 Wire Wire Line
 	18600 8950 18750 8950
 Wire Wire Line
-	18600 9050 18750 9050
+	18600 9150 18750 9150
 Wire Wire Line
 	17200 9150 17300 9150
 Wire Wire Line
@@ -255,8 +255,6 @@ F 3 "~" V 17800 9600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	17700 9600 17300 9600
-Wire Wire Line
 	17300 9600 17300 10000
 $Comp
 L bldc_controller-rescue:R_Small-Device R?
@@ -272,46 +270,28 @@ $EndComp
 $Comp
 L bldc_controller-rescue:R_Small-Device R?
 U 1 1 617F0EDD
-P 18500 10200
-F 0 "R?" V 18304 10200 50  0000 C CNN
-F 1 "R_Small" V 18395 10200 50  0000 C CNN
-F 2 "" H 18500 10200 50  0001 C CNN
-F 3 "~" H 18500 10200 50  0001 C CNN
-	1    18500 10200
+P 18500 10300
+F 0 "R?" V 18304 10300 50  0000 C CNN
+F 1 "R_Small" V 18395 10300 50  0000 C CNN
+F 2 "" H 18500 10300 50  0001 C CNN
+F 3 "~" H 18500 10300 50  0001 C CNN
+	1    18500 10300
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	18400 10100 18300 10100
 Wire Wire Line
-	18300 10200 18400 10200
+	18300 10300 18400 10300
 Wire Wire Line
 	18600 10100 18750 10100
 Wire Wire Line
-	18600 10200 18750 10200
+	18600 10300 18750 10300
 Wire Wire Line
 	17200 10300 17300 10300
 Wire Wire Line
 	17900 9600 18300 9600
 Wire Wire Line
 	18300 9600 18300 10000
-$Comp
-L bldc_controller-rescue:IRS2003PBF-SamacSys_Parts IC?
-U 1 1 61804574
-P 17300 11200
-F 0 "IC?" H 17800 11465 50  0000 C CNN
-F 1 "IRS2003PBF" H 17800 11374 50  0000 C CNN
-F 2 "DIP762W56P254L988H533Q8N" H 18150 11300 50  0001 L CNN
-F 3 "http://uk.rs-online.com/web/p/products/0496000" H 18150 11200 50  0001 L CNN
-F 4 "Infineon IRS2003PBF Dual Half Bridge MOSFET Power Driver, 0.6A 8-Pin, PDIP" H 18150 11100 50  0001 L CNN "Description"
-F 5 "5.33" H 18150 11000 50  0001 L CNN "Height"
-F 6 "0496000" H 18150 10900 50  0001 L CNN "RS Part Number"
-F 7 "http://uk.rs-online.com/web/p/products/0496000" H 18150 10800 50  0001 L CNN "RS Price/Stock"
-F 8 "Infineon" H 18150 10700 50  0001 L CNN "Manufacturer_Name"
-F 9 "IRS2003PBF" H 18150 10600 50  0001 L CNN "Manufacturer_Part_Number"
-F 10 "70017392" H 18150 10500 50  0001 L CNN "Allied_Number"
-	1    17300 11200
-	1    0    0    -1  
-$EndComp
 $Comp
 L bldc_controller-rescue:GND-power #PWR?
 U 1 1 6180457C
@@ -341,8 +321,6 @@ F 3 "~" V 17800 10800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	17700 10800 17300 10800
-Wire Wire Line
 	17300 10800 17300 11200
 $Comp
 L bldc_controller-rescue:R_Small-Device R?
@@ -358,22 +336,20 @@ $EndComp
 $Comp
 L bldc_controller-rescue:R_Small-Device R?
 U 1 1 6180459B
-P 18500 11400
-F 0 "R?" V 18304 11400 50  0000 C CNN
-F 1 "R_Small" V 18395 11400 50  0000 C CNN
-F 2 "" H 18500 11400 50  0001 C CNN
-F 3 "~" H 18500 11400 50  0001 C CNN
-	1    18500 11400
+P 18500 11500
+F 0 "R?" V 18304 11500 50  0000 C CNN
+F 1 "R_Small" V 18395 11500 50  0000 C CNN
+F 2 "" H 18500 11500 50  0001 C CNN
+F 3 "~" H 18500 11500 50  0001 C CNN
+	1    18500 11500
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	18400 11300 18300 11300
 Wire Wire Line
-	18300 11400 18400 11400
+	18300 11500 18400 11500
 Wire Wire Line
-	18600 11300 18750 11300
-Wire Wire Line
-	18600 11400 18750 11400
+	18600 11500 18750 11500
 Wire Wire Line
 	17200 11500 17300 11500
 Wire Wire Line
@@ -389,15 +365,15 @@ Connection ~ 17250 10100
 Wire Wire Line
 	17250 11300 17100 11300
 Connection ~ 17250 11300
-Text GLabel 3650 6800 0    50   Input ~ 0
+Text GLabel 2900 6150 0    50   Input ~ 0
 NRST
-Text GLabel 3650 7100 0    50   Input ~ 0
+Text GLabel 2900 6450 0    50   Input ~ 0
 BOOT0
-Text GLabel 3650 8200 0    50   Input ~ 0
+Text GLabel 2900 7550 0    50   Input ~ 0
 HSE_IN
-Text GLabel 3650 8300 0    50   Input ~ 0
+Text GLabel 2900 7650 0    50   Input ~ 0
 HSE_OUT
-Text GLabel 6050 7000 2    50   Input ~ 0
+Text GLabel 5300 6350 2    50   Input ~ 0
 LED_STATUS
 $Comp
 L bldc_controller-rescue:Crystal_GND24-Device Y?
@@ -513,29 +489,29 @@ Wire Wire Line
 $Comp
 L bldc_controller-rescue:+3.3V-power #PWR?
 U 1 1 61EE9F3F
-P 4250 6350
-F 0 "#PWR?" H 4250 6200 50  0001 C CNN
-F 1 "+3.3V" H 4265 6523 50  0000 C CNN
-F 2 "" H 4250 6350 50  0001 C CNN
-F 3 "" H 4250 6350 50  0001 C CNN
-	1    4250 6350
+P 3500 5700
+F 0 "#PWR?" H 3500 5550 50  0001 C CNN
+F 1 "+3.3V" H 3515 5873 50  0000 C CNN
+F 2 "" H 3500 5700 50  0001 C CNN
+F 3 "" H 3500 5700 50  0001 C CNN
+	1    3500 5700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4250 6350 4250 6500
+	3500 5700 3500 5850
 $Comp
 L bldc_controller-rescue:+3.3VA-power #PWR?
 U 1 1 61F054B3
-P 5550 6350
-F 0 "#PWR?" H 5550 6200 50  0001 C CNN
-F 1 "+3.3VA" H 5565 6523 50  0000 C CNN
-F 2 "" H 5550 6350 50  0001 C CNN
-F 3 "" H 5550 6350 50  0001 C CNN
-	1    5550 6350
+P 4800 5700
+F 0 "#PWR?" H 4800 5550 50  0001 C CNN
+F 1 "+3.3VA" H 4815 5873 50  0000 C CNN
+F 2 "" H 4800 5700 50  0001 C CNN
+F 3 "" H 4800 5700 50  0001 C CNN
+	1    4800 5700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5550 6350 5550 6500
+	4800 5700 4800 5850
 $Comp
 L bldc_controller-rescue:+3.3V-power #PWR?
 U 1 1 61F12F71
@@ -809,255 +785,255 @@ Connection ~ 2800 4150
 $Comp
 L bldc_controller-rescue:C_Small-Device C?
 U 1 1 61FB3B3C
-P 2650 7450
-F 0 "C?" H 2742 7496 50  0000 L CNN
-F 1 "2u2" H 2742 7405 50  0000 L CNN
-F 2 "" H 2650 7450 50  0001 C CNN
-F 3 "~" H 2650 7450 50  0001 C CNN
-	1    2650 7450
+P 1900 6800
+F 0 "C?" H 1992 6846 50  0000 L CNN
+F 1 "2u2" H 1992 6755 50  0000 L CNN
+F 2 "" H 1900 6800 50  0001 C CNN
+F 3 "~" H 1900 6800 50  0001 C CNN
+	1    1900 6800
 	1    0    0    -1  
 $EndComp
 $Comp
 L bldc_controller-rescue:C_Small-Device C?
 U 1 1 61FB4856
-P 3150 7500
-F 0 "C?" H 3242 7546 50  0000 L CNN
-F 1 "2u2" H 3242 7455 50  0000 L CNN
-F 2 "" H 3150 7500 50  0001 C CNN
-F 3 "~" H 3150 7500 50  0001 C CNN
-	1    3150 7500
+P 2400 6850
+F 0 "C?" H 2492 6896 50  0000 L CNN
+F 1 "2u2" H 2492 6805 50  0000 L CNN
+F 2 "" H 2400 6850 50  0001 C CNN
+F 3 "~" H 2400 6850 50  0001 C CNN
+	1    2400 6850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3650 7300 2650 7300
+	2900 6650 1900 6650
 Wire Wire Line
-	2650 7300 2650 7350
+	1900 6650 1900 6700
 $Comp
 L bldc_controller-rescue:GND-power #PWR?
 U 1 1 61FBD884
-P 2650 7550
-F 0 "#PWR?" H 2650 7300 50  0001 C CNN
-F 1 "GND" H 2655 7377 50  0000 C CNN
-F 2 "" H 2650 7550 50  0001 C CNN
-F 3 "" H 2650 7550 50  0001 C CNN
-	1    2650 7550
+P 1900 6900
+F 0 "#PWR?" H 1900 6650 50  0001 C CNN
+F 1 "GND" H 1905 6727 50  0000 C CNN
+F 2 "" H 1900 6900 50  0001 C CNN
+F 3 "" H 1900 6900 50  0001 C CNN
+	1    1900 6900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3150 7400 3650 7400
+	2400 6750 2900 6750
 $Comp
 L bldc_controller-rescue:GND-power #PWR?
 U 1 1 61FC6B18
-P 3150 7600
-F 0 "#PWR?" H 3150 7350 50  0001 C CNN
-F 1 "GND" H 3155 7427 50  0000 C CNN
-F 2 "" H 3150 7600 50  0001 C CNN
-F 3 "" H 3150 7600 50  0001 C CNN
-	1    3150 7600
+P 2400 6950
+F 0 "#PWR?" H 2400 6700 50  0001 C CNN
+F 1 "GND" H 2405 6777 50  0000 C CNN
+F 2 "" H 2400 6950 50  0001 C CNN
+F 3 "" H 2400 6950 50  0001 C CNN
+	1    2400 6950
 	1    0    0    -1  
 $EndComp
 $Comp
 L bldc_controller-rescue:GND-power #PWR?
 U 1 1 61E00D01
-P 4450 13800
-F 0 "#PWR?" H 4450 13550 50  0001 C CNN
-F 1 "GND" H 4455 13627 50  0000 C CNN
-F 2 "" H 4450 13800 50  0001 C CNN
-F 3 "" H 4450 13800 50  0001 C CNN
-	1    4450 13800
+P 3700 13150
+F 0 "#PWR?" H 3700 12900 50  0001 C CNN
+F 1 "GND" H 3705 12977 50  0000 C CNN
+F 2 "" H 3700 13150 50  0001 C CNN
+F 3 "" H 3700 13150 50  0001 C CNN
+	1    3700 13150
 	1    0    0    -1  
 $EndComp
-Text GLabel 6050 7900 2    50   Input ~ 0
+Text GLabel 5300 7250 2    50   Input ~ 0
 USB_D-
-Text GLabel 6050 8000 2    50   Input ~ 0
+Text GLabel 5300 7350 2    50   Input ~ 0
 USB_D+
-Text GLabel 6050 8100 2    50   Input ~ 0
+Text GLabel 5300 7450 2    50   Input ~ 0
 SWDIO
-Text GLabel 6050 8200 2    50   Input ~ 0
+Text GLabel 5300 7550 2    50   Input ~ 0
 SWCLK
-Text GLabel 6050 8800 2    50   Input ~ 0
+Text GLabel 5300 8150 2    50   Input ~ 0
 SWO
-NoConn ~ 3650 6900
-NoConn ~ 3650 8500
-NoConn ~ 3650 8600
-NoConn ~ 3650 8700
-NoConn ~ 3650 8800
-NoConn ~ 3650 8900
-NoConn ~ 3650 9000
-NoConn ~ 3650 9100
-NoConn ~ 3650 9200
-NoConn ~ 3650 9300
-NoConn ~ 3650 9400
-NoConn ~ 3650 9500
-NoConn ~ 3650 9600
-NoConn ~ 3650 9700
-NoConn ~ 3650 9800
-NoConn ~ 3650 9900
-NoConn ~ 3650 10000
-NoConn ~ 3650 10200
-Connection ~ 5050 6500
+NoConn ~ 2900 6250
+NoConn ~ 2900 7850
+NoConn ~ 2900 7950
+NoConn ~ 2900 8050
+NoConn ~ 2900 8150
+NoConn ~ 2900 8250
+NoConn ~ 2900 8350
+NoConn ~ 2900 8450
+NoConn ~ 2900 8550
+NoConn ~ 2900 8650
+NoConn ~ 2900 8750
+NoConn ~ 2900 8850
+NoConn ~ 2900 8950
+NoConn ~ 2900 9050
+NoConn ~ 2900 9150
+NoConn ~ 2900 9250
+NoConn ~ 2900 9350
+NoConn ~ 2900 9550
+Connection ~ 4300 5850
 Wire Wire Line
-	4950 6500 5050 6500
-Connection ~ 4950 6500
+	4200 5850 4300 5850
+Connection ~ 4200 5850
 Wire Wire Line
-	4850 6500 4950 6500
-Connection ~ 4850 6500
+	4100 5850 4200 5850
+Connection ~ 4100 5850
 Wire Wire Line
-	4750 6500 4850 6500
-Connection ~ 4750 6500
+	4000 5850 4100 5850
+Connection ~ 4000 5850
 Wire Wire Line
-	4650 6500 4750 6500
-Connection ~ 4650 6500
+	3900 5850 4000 5850
+Connection ~ 3900 5850
 Wire Wire Line
-	4550 6500 4650 6500
-Connection ~ 4550 6500
+	3800 5850 3900 5850
+Connection ~ 3800 5850
 Wire Wire Line
-	4450 6500 4550 6500
-Connection ~ 4450 6500
+	3700 5850 3800 5850
+Connection ~ 3700 5850
 Wire Wire Line
-	4350 6500 4450 6500
+	3600 5850 3700 5850
 Wire Wire Line
-	4350 6500 4250 6500
-Connection ~ 4350 6500
+	3600 5850 3500 5850
+Connection ~ 3600 5850
 Wire Wire Line
-	5350 6500 5450 6500
-Connection ~ 5350 6500
+	4600 5850 4700 5850
+Connection ~ 4600 5850
 Wire Wire Line
-	5250 6500 5350 6500
-Connection ~ 5250 6500
+	4500 5850 4600 5850
+Connection ~ 4500 5850
 Wire Wire Line
-	5050 6500 5150 6500
+	4300 5850 4400 5850
 Wire Wire Line
-	5150 6500 5250 6500
-Connection ~ 5150 6500
-Connection ~ 4250 6500
+	4400 5850 4500 5850
+Connection ~ 4400 5850
+Connection ~ 3500 5850
 $Comp
 L bldc_controller-rescue:STM32F407ZETx-MCU_ST_STM32F4 U?
 U 1 1 61E8EF78
-P 4850 10100
+P 4100 9450
 AR Path="/61E8EF78" Ref="U?"  Part="1" 
 AR Path="/61E03318/61E8EF78" Ref="U?"  Part="1" 
-F 0 "U?" H 3850 6450 50  0000 C CNN
-F 1 "STM32F407ZETx" H 3850 6600 50  0000 C CNN
-F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 3850 6700 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf" H 4850 10100 50  0001 C CNN
-	1    4850 10100
+F 0 "U?" H 3100 5800 50  0000 C CNN
+F 1 "STM32F407ZETx" H 3100 5950 50  0000 C CNN
+F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 3100 6050 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf" H 4100 9450 50  0001 C CNN
+	1    4100 9450
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3650 10300
-NoConn ~ 3650 10400
-NoConn ~ 3650 10500
-NoConn ~ 3650 10600
-NoConn ~ 3650 10700
-NoConn ~ 3650 10800
-NoConn ~ 3650 10900
-NoConn ~ 3650 11000
-NoConn ~ 3650 11100
-NoConn ~ 3650 11200
-NoConn ~ 3650 11300
-NoConn ~ 3650 11400
-NoConn ~ 3650 11500
-NoConn ~ 3650 11600
-NoConn ~ 3650 11700
-NoConn ~ 3650 11900
-NoConn ~ 3650 12000
-NoConn ~ 3650 12100
-NoConn ~ 3650 12200
-NoConn ~ 3650 12300
-NoConn ~ 3650 12400
-NoConn ~ 3650 12500
-NoConn ~ 3650 12600
-NoConn ~ 3650 12700
-NoConn ~ 3650 12800
-NoConn ~ 3650 12900
-NoConn ~ 3650 13000
-NoConn ~ 3650 13100
-NoConn ~ 3650 13200
-NoConn ~ 3650 13300
-NoConn ~ 3650 13400
-NoConn ~ 6050 6800
-NoConn ~ 6050 6900
-NoConn ~ 6050 7500
-NoConn ~ 6050 7600
-NoConn ~ 6050 7700
-NoConn ~ 6050 7800
-NoConn ~ 6050 8300
-NoConn ~ 6050 8500
-NoConn ~ 6050 8600
-NoConn ~ 6050 8700
-NoConn ~ 6050 8900
-NoConn ~ 6050 9000
-NoConn ~ 6050 9100
-NoConn ~ 6050 9200
-NoConn ~ 6050 9300
-NoConn ~ 6050 9400
-NoConn ~ 6050 9500
-NoConn ~ 6050 9600
-NoConn ~ 6050 9700
-NoConn ~ 6050 9800
-NoConn ~ 6050 9900
-NoConn ~ 6050 10000
-NoConn ~ 6050 10200
-NoConn ~ 6050 10300
-NoConn ~ 6050 10400
-NoConn ~ 6050 10500
-NoConn ~ 6050 10600
-NoConn ~ 6050 10700
-NoConn ~ 6050 10800
-NoConn ~ 6050 10900
-NoConn ~ 6050 11000
-NoConn ~ 6050 11100
-NoConn ~ 6050 11200
-NoConn ~ 6050 11300
-NoConn ~ 6050 11400
-NoConn ~ 6050 11500
-NoConn ~ 6050 11600
-NoConn ~ 6050 11700
-NoConn ~ 6050 11900
-NoConn ~ 6050 12000
-NoConn ~ 6050 12100
-NoConn ~ 6050 12200
-NoConn ~ 6050 12300
-NoConn ~ 6050 12400
-NoConn ~ 6050 12500
-NoConn ~ 6050 12600
-NoConn ~ 6050 12700
-NoConn ~ 6050 12800
-NoConn ~ 6050 12900
-NoConn ~ 6050 13000
-NoConn ~ 6050 13100
-NoConn ~ 6050 13200
-NoConn ~ 6050 13300
-NoConn ~ 6050 13400
+NoConn ~ 2900 9650
+NoConn ~ 2900 9750
+NoConn ~ 2900 9850
+NoConn ~ 2900 9950
+NoConn ~ 2900 10050
+NoConn ~ 2900 10150
+NoConn ~ 2900 10250
+NoConn ~ 2900 10350
+NoConn ~ 2900 10450
+NoConn ~ 2900 10550
+NoConn ~ 2900 10650
+NoConn ~ 2900 10750
+NoConn ~ 2900 10850
+NoConn ~ 2900 10950
+NoConn ~ 2900 11050
+NoConn ~ 2900 11250
+NoConn ~ 2900 11350
+NoConn ~ 2900 11450
+NoConn ~ 2900 11550
+NoConn ~ 2900 11650
+NoConn ~ 2900 11750
+NoConn ~ 2900 11850
+NoConn ~ 2900 11950
+NoConn ~ 2900 12050
+NoConn ~ 2900 12150
+NoConn ~ 2900 12250
+NoConn ~ 2900 12350
+NoConn ~ 2900 12450
+NoConn ~ 2900 12550
+NoConn ~ 2900 12650
+NoConn ~ 2900 12750
+NoConn ~ 5300 6150
+NoConn ~ 5300 6250
+NoConn ~ 5300 6850
+NoConn ~ 5300 6950
+NoConn ~ 5300 7050
+NoConn ~ 5300 7150
+NoConn ~ 5300 7650
+NoConn ~ 5300 7850
+NoConn ~ 5300 7950
+NoConn ~ 5300 8050
+NoConn ~ 5300 8250
+NoConn ~ 5300 8350
+NoConn ~ 5300 8450
+NoConn ~ 5300 8550
+NoConn ~ 5300 8650
+NoConn ~ 5300 8750
+NoConn ~ 5300 8850
+NoConn ~ 5300 8950
+NoConn ~ 5300 9050
+NoConn ~ 5300 9150
+NoConn ~ 5300 9250
+NoConn ~ 5300 9350
+NoConn ~ 5300 9550
+NoConn ~ 5300 9650
+NoConn ~ 5300 9750
+NoConn ~ 5300 9850
+NoConn ~ 5300 9950
+NoConn ~ 5300 10050
+NoConn ~ 5300 10150
+NoConn ~ 5300 10250
+NoConn ~ 5300 10350
+NoConn ~ 5300 10450
+NoConn ~ 5300 10550
+NoConn ~ 5300 10650
+NoConn ~ 5300 10750
+NoConn ~ 5300 10850
+NoConn ~ 5300 10950
+NoConn ~ 5300 11050
+NoConn ~ 5300 11250
+NoConn ~ 5300 11350
+NoConn ~ 5300 11450
+NoConn ~ 5300 11550
+NoConn ~ 5300 11650
+NoConn ~ 5300 11750
+NoConn ~ 5300 11850
+NoConn ~ 5300 11950
+NoConn ~ 5300 12050
+NoConn ~ 5300 12150
+NoConn ~ 5300 12250
+NoConn ~ 5300 12350
+NoConn ~ 5300 12450
+NoConn ~ 5300 12550
+NoConn ~ 5300 12650
+NoConn ~ 5300 12750
 Wire Wire Line
-	4450 13700 4550 13700
-Connection ~ 4550 13700
+	3700 13050 3800 13050
+Connection ~ 3800 13050
 Wire Wire Line
-	4550 13700 4650 13700
-Connection ~ 4650 13700
+	3800 13050 3900 13050
+Connection ~ 3900 13050
 Wire Wire Line
-	4650 13700 4750 13700
-Connection ~ 4750 13700
+	3900 13050 4000 13050
+Connection ~ 4000 13050
 Wire Wire Line
-	4750 13700 4850 13700
-Connection ~ 4850 13700
+	4000 13050 4100 13050
+Connection ~ 4100 13050
 Wire Wire Line
-	4850 13700 4950 13700
-Connection ~ 4950 13700
+	4100 13050 4200 13050
+Connection ~ 4200 13050
 Wire Wire Line
-	4950 13700 5050 13700
-Connection ~ 5050 13700
+	4200 13050 4300 13050
+Connection ~ 4300 13050
 Wire Wire Line
-	5050 13700 5150 13700
-Connection ~ 5150 13700
+	4300 13050 4400 13050
+Connection ~ 4400 13050
 Wire Wire Line
-	5150 13700 5250 13700
-Connection ~ 5250 13700
+	4400 13050 4500 13050
+Connection ~ 4500 13050
 Wire Wire Line
-	5250 13700 5350 13700
+	4500 13050 4600 13050
 Wire Wire Line
-	4450 13700 4450 13800
-Connection ~ 4450 13700
+	3700 13050 3700 13150
+Connection ~ 3700 13050
 $Comp
 L bldc_controller-rescue:SW_SPDT-Switch SW?
 U 1 1 621EE0B0
@@ -1180,47 +1156,47 @@ Connection ~ 8900 5850
 Wire Wire Line
 	9350 6250 8900 6250
 Connection ~ 8900 6250
-Text GLabel 2500 9550 0    50   Input ~ 0
+Text GLabel 1750 8900 0    50   Input ~ 0
 LED_STATUS
 $Comp
 L bldc_controller-rescue:LED-Device D?
 U 1 1 62268E80
-P 2700 9700
-F 0 "D?" V 2739 9582 50  0000 R CNN
-F 1 "BLUE" V 2648 9582 50  0000 R CNN
-F 2 "" H 2700 9700 50  0001 C CNN
-F 3 "~" H 2700 9700 50  0001 C CNN
-	1    2700 9700
+P 1950 9050
+F 0 "D?" V 1989 8932 50  0000 R CNN
+F 1 "BLUE" V 1898 8932 50  0000 R CNN
+F 2 "" H 1950 9050 50  0001 C CNN
+F 3 "~" H 1950 9050 50  0001 C CNN
+	1    1950 9050
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2700 9550 2500 9550
+	1950 8900 1750 8900
 $Comp
 L bldc_controller-rescue:R-Device R?
 U 1 1 62275EF3
-P 2700 10200
-F 0 "R?" H 2770 10246 50  0000 L CNN
-F 1 "1k5" H 2770 10155 50  0000 L CNN
-F 2 "" V 2630 10200 50  0001 C CNN
-F 3 "~" H 2700 10200 50  0001 C CNN
-	1    2700 10200
+P 1950 9550
+F 0 "R?" H 2020 9596 50  0000 L CNN
+F 1 "1k5" H 2020 9505 50  0000 L CNN
+F 2 "" V 1880 9550 50  0001 C CNN
+F 3 "~" H 1950 9550 50  0001 C CNN
+	1    1950 9550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2700 9850 2700 10050
+	1950 9200 1950 9400
 $Comp
 L bldc_controller-rescue:GND-power #PWR?
 U 1 1 6228143E
-P 2700 10450
-F 0 "#PWR?" H 2700 10200 50  0001 C CNN
-F 1 "GND" H 2705 10277 50  0000 C CNN
-F 2 "" H 2700 10450 50  0001 C CNN
-F 3 "" H 2700 10450 50  0001 C CNN
-	1    2700 10450
+P 1950 9800
+F 0 "#PWR?" H 1950 9550 50  0001 C CNN
+F 1 "GND" H 1955 9627 50  0000 C CNN
+F 2 "" H 1950 9800 50  0001 C CNN
+F 3 "" H 1950 9800 50  0001 C CNN
+	1    1950 9800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2700 10450 2700 10350
+	1950 9800 1950 9700
 Text GLabel 8900 8750 2    50   Input ~ 0
 USB_CONN_D+
 Text GLabel 8900 8850 2    50   Input ~ 0
@@ -1379,7 +1355,7 @@ F 3 "" H 10100 3650 50  0001 C CNN
 	1    10100 3650
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6050 7100
+NoConn ~ 5300 6450
 $Comp
 L bldc_controller-rescue:+48V-power #PWR?
 U 1 1 61FFAD69
@@ -1403,7 +1379,7 @@ Text GLabel 17100 11300 0    50   Input ~ 0
 DRIVE_C
 Text GLabel 18750 8950 2    50   Input ~ 0
 GATE_AH
-Text GLabel 18750 9050 2    50   Input ~ 0
+Text GLabel 18750 9150 2    50   Input ~ 0
 GATE_AL
 Text GLabel 14000 4000 0    50   Input ~ 0
 GATE_AH
@@ -1413,11 +1389,11 @@ Wire Wire Line
 	14300 5100 15750 5100
 Text GLabel 18750 10100 2    50   Input ~ 0
 GATE_BH
-Text GLabel 18750 10200 2    50   Input ~ 0
+Text GLabel 18750 10300 2    50   Input ~ 0
 GATE_BL
 Text GLabel 18750 11300 2    50   Input ~ 0
 GATE_CH
-Text GLabel 18750 11400 2    50   Input ~ 0
+Text GLabel 18750 11500 2    50   Input ~ 0
 GATE_CL
 Text GLabel 15450 4000 0    50   Input ~ 0
 GATE_BH
@@ -1430,11 +1406,11 @@ Text GLabel 16950 4750 0    50   Input ~ 0
 GATE_CL
 Wire Wire Line
 	15750 5100 17250 5100
-Text GLabel 6050 7200 2    50   Input ~ 0
+Text GLabel 5300 6550 2    50   Input ~ 0
 DRIVE_A
-Text GLabel 6050 7300 2    50   Input ~ 0
+Text GLabel 5300 6650 2    50   Input ~ 0
 DRIVE_B
-Text GLabel 6050 7400 2    50   Input ~ 0
+Text GLabel 5300 6750 2    50   Input ~ 0
 DRIVE_C
 $Comp
 L bldc_controller-rescue:C_Small-Device C?
@@ -1454,7 +1430,7 @@ Wire Wire Line
 Wire Wire Line
 	18500 8450 18300 8450
 Connection ~ 18300 8450
-Text GLabel 18300 9150 2    50   Input ~ 0
+Text GLabel 18750 9050 2    50   Input ~ 0
 LO_A
 $Comp
 L bldc_controller-rescue:C_Small-Device C?
@@ -1490,10 +1466,8 @@ Wire Wire Line
 	18850 10800 18700 10800
 Wire Wire Line
 	18500 10800 18300 10800
-Text GLabel 18300 10300 2    50   Input ~ 0
+Text GLabel 18750 10200 2    50   Input ~ 0
 LO_B
-Text GLabel 18300 11500 2    50   Input ~ 0
-LO_C
 Connection ~ 18300 9600
 Connection ~ 18300 10800
 $Comp
@@ -1512,7 +1486,7 @@ L bldc_controller-rescue:Polyfuse-Device F?
 U 1 1 62131D2C
 P 9200 11100
 F 0 "F?" V 8975 11100 50  0000 C CNN
-F 1 "Polyfuse" V 9066 11100 50  0000 C CNN
+F 1 "Polyfuse 250mA" V 9066 11100 50  0000 C CNN
 F 2 "" H 9250 10900 50  0001 L CNN
 F 3 "~" H 9200 11100 50  0001 C CNN
 	1    9200 11100
@@ -1565,40 +1539,40 @@ Connection ~ 10250 11100
 $Comp
 L R-78HB3.3-0.5L:R-78HB3.3-0.5L PS?
 U 1 1 61EC1EAE
-P 10000 14050
-F 0 "PS?" H 10828 13996 50  0000 L CNN
-F 1 "R-78HB3.3-0.5L" H 10828 13905 50  0000 L CNN
-F 2 "R78HB3305L" H 10850 14150 50  0001 L CNN
-F 3 "http://uk.rs-online.com/web/p/products/1668991" H 10850 14050 50  0001 L CNN
-F 4 "Recom Switching Regulator, 9  72V dc Input, 3.3V dc Output, 500mA" H 10850 13950 50  0001 L CNN "Description"
-F 5 "8.75" H 10850 13850 50  0001 L CNN "Height"
-F 6 "RECOM Power" H 10850 13750 50  0001 L CNN "Manufacturer_Name"
-F 7 "R-78HB3.3-0.5L" H 10850 13650 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "919-R-78HB3.3-0.5L" H 10850 13550 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/RECOM-Power/R-78HB33-05L?qs=XF8hdbuHJAUzicXuP8uCaA%3D%3D" H 10850 13450 50  0001 L CNN "Mouser Price/Stock"
-F 10 "R-78HB3.3-0.5L" H 10850 13350 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/r-78hb3.3-0.5l/recom-power" H 10850 13250 50  0001 L CNN "Arrow Price/Stock"
-	1    10000 14050
+P 7100 14650
+F 0 "PS?" H 7928 14596 50  0000 L CNN
+F 1 "R-78HB3.3-0.5L" H 7928 14505 50  0000 L CNN
+F 2 "R78HB3305L" H 7950 14750 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/1668991" H 7950 14650 50  0001 L CNN
+F 4 "Recom Switching Regulator, 9  72V dc Input, 3.3V dc Output, 500mA" H 7950 14550 50  0001 L CNN "Description"
+F 5 "8.75" H 7950 14450 50  0001 L CNN "Height"
+F 6 "RECOM Power" H 7950 14350 50  0001 L CNN "Manufacturer_Name"
+F 7 "R-78HB3.3-0.5L" H 7950 14250 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "919-R-78HB3.3-0.5L" H 7950 14150 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/RECOM-Power/R-78HB33-05L?qs=XF8hdbuHJAUzicXuP8uCaA%3D%3D" H 7950 14050 50  0001 L CNN "Mouser Price/Stock"
+F 10 "R-78HB3.3-0.5L" H 7950 13950 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/r-78hb3.3-0.5l/recom-power" H 7950 13850 50  0001 L CNN "Arrow Price/Stock"
+	1    7100 14650
 	1    0    0    -1  
 $EndComp
 $Comp
 L bldc_controller-rescue:GND-power #PWR?
 U 1 1 61F4DFA4
-P 9750 14350
+P 6850 14950
 AR Path="/61F4DFA4" Ref="#PWR?"  Part="1" 
 AR Path="/61E03318/61F4DFA4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9750 14100 50  0001 C CNN
-F 1 "GND" H 9755 14177 50  0000 C CNN
-F 2 "" H 9750 14350 50  0001 C CNN
-F 3 "" H 9750 14350 50  0001 C CNN
-	1    9750 14350
+F 0 "#PWR?" H 6850 14700 50  0001 C CNN
+F 1 "GND" H 6855 14777 50  0000 C CNN
+F 2 "" H 6850 14950 50  0001 C CNN
+F 3 "" H 6850 14950 50  0001 C CNN
+	1    6850 14950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9750 14350 9750 14150
+	6850 14950 6850 14750
 Wire Wire Line
-	9750 14150 10000 14150
-Text GLabel 8900 14050 0    50   Input ~ 0
+	6850 14750 7100 14750
+Text GLabel 6000 14650 0    50   Input ~ 0
 BUCK_IN
 Wire Wire Line
 	9200 4950 9100 4950
@@ -1616,37 +1590,37 @@ $EndComp
 $Comp
 L bldc_controller-rescue:+3.3V-power #PWR?
 U 1 1 61F69FCC
-P 9850 13900
-F 0 "#PWR?" H 9850 13750 50  0001 C CNN
-F 1 "+3.3V" H 9865 14073 50  0000 C CNN
-F 2 "" H 9850 13900 50  0001 C CNN
-F 3 "" H 9850 13900 50  0001 C CNN
-	1    9850 13900
+P 6950 14500
+F 0 "#PWR?" H 6950 14350 50  0001 C CNN
+F 1 "+3.3V" H 6965 14673 50  0000 C CNN
+F 2 "" H 6950 14500 50  0001 C CNN
+F 3 "" H 6950 14500 50  0001 C CNN
+	1    6950 14500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10000 14050 9100 14050
+	7100 14650 6200 14650
 Wire Wire Line
-	9850 13900 9850 14250
+	6950 14500 6950 14850
 Wire Wire Line
-	9850 14250 10000 14250
+	6950 14850 7100 14850
 $Comp
 L LF33CV:LF33CV IC?
 U 1 1 6203DB57
-P 9350 12250
-F 0 "IC?" H 10178 12196 50  0000 L CNN
-F 1 "LF33CV" H 10178 12105 50  0000 L CNN
-F 2 "TO255P460X1020X2008-3P" H 10200 12350 50  0001 L CNN
-F 3 "http://www.st.com/web/en/resource/technical/document/datasheet/CD00000546.pdf" H 10200 12250 50  0001 L CNN
-F 4 "LF33CV, Low Dropout Voltage Regulator, 0.5A, 3.3 V +/-2%, 3-Pin TO-220" H 10200 12150 50  0001 L CNN "Description"
-F 5 "4.6" H 10200 12050 50  0001 L CNN "Height"
-F 6 "STMicroelectronics" H 10200 11950 50  0001 L CNN "Manufacturer_Name"
-F 7 "LF33CV" H 10200 11850 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "511-LF33CV" H 10200 11750 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LF33CV?qs=LPKLnBpMevjK%252B28MZYQO9Q%3D%3D" H 10200 11650 50  0001 L CNN "Mouser Price/Stock"
-F 10 "LF33CV" H 10200 11550 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/lf33cv/stmicroelectronics?region=nac" H 10200 11450 50  0001 L CNN "Arrow Price/Stock"
-	1    9350 12250
+P 7900 12900
+F 0 "IC?" H 8728 12846 50  0000 L CNN
+F 1 "LF33CV" H 8728 12755 50  0000 L CNN
+F 2 "TO255P460X1020X2008-3P" H 8750 13000 50  0001 L CNN
+F 3 "http://www.st.com/web/en/resource/technical/document/datasheet/CD00000546.pdf" H 8750 12900 50  0001 L CNN
+F 4 "LF33CV, Low Dropout Voltage Regulator, 0.5A, 3.3 V +/-2%, 3-Pin TO-220" H 8750 12800 50  0001 L CNN "Description"
+F 5 "4.6" H 8750 12700 50  0001 L CNN "Height"
+F 6 "STMicroelectronics" H 8750 12600 50  0001 L CNN "Manufacturer_Name"
+F 7 "LF33CV" H 8750 12500 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "511-LF33CV" H 8750 12400 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LF33CV?qs=LPKLnBpMevjK%252B28MZYQO9Q%3D%3D" H 8750 12300 50  0001 L CNN "Mouser Price/Stock"
+F 10 "LF33CV" H 8750 12200 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/lf33cv/stmicroelectronics?region=nac" H 8750 12100 50  0001 L CNN "Arrow Price/Stock"
+	1    7900 12900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1676,114 +1650,114 @@ $EndComp
 $Comp
 L bldc_controller-rescue:+5V-power #PWR?
 U 1 1 62049F88
-P 8700 12050
-F 0 "#PWR?" H 8700 11900 50  0001 C CNN
-F 1 "+5V" H 8715 12223 50  0000 C CNN
-F 2 "" H 8700 12050 50  0001 C CNN
-F 3 "" H 8700 12050 50  0001 C CNN
-	1    8700 12050
+P 7250 12700
+F 0 "#PWR?" H 7250 12550 50  0001 C CNN
+F 1 "+5V" H 7265 12873 50  0000 C CNN
+F 2 "" H 7250 12700 50  0001 C CNN
+F 3 "" H 7250 12700 50  0001 C CNN
+	1    7250 12700
 	1    0    0    -1  
 $EndComp
 $Comp
 L bldc_controller-rescue:GND-power #PWR?
 U 1 1 6204B2BE
-P 9200 12950
+P 7750 13600
 AR Path="/6204B2BE" Ref="#PWR?"  Part="1" 
 AR Path="/61E03318/6204B2BE" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9200 12700 50  0001 C CNN
-F 1 "GND" H 9205 12777 50  0000 C CNN
-F 2 "" H 9200 12950 50  0001 C CNN
-F 3 "" H 9200 12950 50  0001 C CNN
-	1    9200 12950
+F 0 "#PWR?" H 7750 13350 50  0001 C CNN
+F 1 "GND" H 7755 13427 50  0000 C CNN
+F 2 "" H 7750 13600 50  0001 C CNN
+F 3 "" H 7750 13600 50  0001 C CNN
+	1    7750 13600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9350 12350 9200 12350
+	7900 13000 7750 13000
 Wire Wire Line
-	8700 12050 8700 12250
+	7250 12700 7250 12900
 $Comp
 L bldc_controller-rescue:+3.3V-power #PWR?
 U 1 1 620611B1
-P 8250 12050
-F 0 "#PWR?" H 8250 11900 50  0001 C CNN
-F 1 "+3.3V" H 8265 12223 50  0000 C CNN
-F 2 "" H 8250 12050 50  0001 C CNN
-F 3 "" H 8250 12050 50  0001 C CNN
-	1    8250 12050
+P 6800 12700
+F 0 "#PWR?" H 6800 12550 50  0001 C CNN
+F 1 "+3.3V" H 6815 12873 50  0000 C CNN
+F 2 "" H 6800 12700 50  0001 C CNN
+F 3 "" H 6800 12700 50  0001 C CNN
+	1    6800 12700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8250 12050 8250 12450
+	6800 12700 6800 13100
 $Comp
 L bldc_controller-rescue:C-Device C?
 U 1 1 61ED1DD3
-P 8250 12700
-F 0 "C?" H 8365 12746 50  0000 L CNN
-F 1 "2.2u" H 8365 12655 50  0000 L CNN
-F 2 "" H 8288 12550 50  0001 C CNN
-F 3 "" H 8250 12700 50  0001 C CNN
-	1    8250 12700
+P 6800 13350
+F 0 "C?" H 6915 13396 50  0000 L CNN
+F 1 "2.2u" H 6915 13305 50  0000 L CNN
+F 2 "" H 6838 13200 50  0001 C CNN
+F 3 "" H 6800 13350 50  0001 C CNN
+	1    6800 13350
 	1    0    0    -1  
 $EndComp
 $Comp
 L bldc_controller-rescue:C-Device C?
 U 1 1 61ED48B5
-P 8700 12700
-F 0 "C?" H 8815 12746 50  0000 L CNN
-F 1 "0.1u" H 8815 12655 50  0000 L CNN
-F 2 "" H 8738 12550 50  0001 C CNN
-F 3 "" H 8700 12700 50  0001 C CNN
-	1    8700 12700
+P 7250 13350
+F 0 "C?" H 7365 13396 50  0000 L CNN
+F 1 "0.1u" H 7365 13305 50  0000 L CNN
+F 2 "" H 7288 13200 50  0001 C CNN
+F 3 "" H 7250 13350 50  0001 C CNN
+	1    7250 13350
 	1    0    0    -1  
 $EndComp
 $Comp
 L bldc_controller-rescue:GND-power #PWR?
 U 1 1 61EE0CC6
-P 8700 12950
+P 7250 13600
 AR Path="/61EE0CC6" Ref="#PWR?"  Part="1" 
 AR Path="/61E03318/61EE0CC6" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8700 12700 50  0001 C CNN
-F 1 "GND" H 8705 12777 50  0000 C CNN
-F 2 "" H 8700 12950 50  0001 C CNN
-F 3 "" H 8700 12950 50  0001 C CNN
-	1    8700 12950
+F 0 "#PWR?" H 7250 13350 50  0001 C CNN
+F 1 "GND" H 7255 13427 50  0000 C CNN
+F 2 "" H 7250 13600 50  0001 C CNN
+F 3 "" H 7250 13600 50  0001 C CNN
+	1    7250 13600
 	1    0    0    -1  
 $EndComp
 $Comp
 L bldc_controller-rescue:GND-power #PWR?
 U 1 1 61EEAFAE
-P 8250 12950
+P 6800 13600
 AR Path="/61EEAFAE" Ref="#PWR?"  Part="1" 
 AR Path="/61E03318/61EEAFAE" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8250 12700 50  0001 C CNN
-F 1 "GND" H 8255 12777 50  0000 C CNN
-F 2 "" H 8250 12950 50  0001 C CNN
-F 3 "" H 8250 12950 50  0001 C CNN
-	1    8250 12950
+F 0 "#PWR?" H 6800 13350 50  0001 C CNN
+F 1 "GND" H 6805 13427 50  0000 C CNN
+F 2 "" H 6800 13600 50  0001 C CNN
+F 3 "" H 6800 13600 50  0001 C CNN
+	1    6800 13600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8700 12250 9350 12250
+	7250 12900 7900 12900
 Wire Wire Line
-	8250 12450 9350 12450
+	6800 13100 7900 13100
 Wire Wire Line
-	8250 12850 8250 12950
+	6800 13500 6800 13600
 Wire Wire Line
-	8700 13000 8700 12950
+	7250 13650 7250 13600
 Wire Wire Line
-	9200 12350 9200 12950
-Connection ~ 8250 12950
+	7750 13000 7750 13600
+Connection ~ 6800 13600
 Wire Wire Line
-	8250 12950 8250 13000
-Connection ~ 8700 12950
+	6800 13600 6800 13650
+Connection ~ 7250 13600
 Wire Wire Line
-	8700 12950 8700 12850
+	7250 13600 7250 13500
 Wire Wire Line
-	8250 12450 8250 12550
-Connection ~ 8250 12450
+	6800 13100 6800 13200
+Connection ~ 6800 13100
 Wire Wire Line
-	8700 12250 8700 12550
-Connection ~ 8700 12250
+	7250 12900 7250 13200
+Connection ~ 7250 12900
 Wire Wire Line
 	12850 7500 12750 7500
 Wire Wire Line
@@ -2302,30 +2276,517 @@ $EndComp
 $Comp
 L bldc_controller-rescue:C-Device C?
 U 1 1 6290E35D
-P 9100 14300
-F 0 "C?" H 9215 14346 50  0000 L CNN
-F 1 "C-Device" H 9215 14255 50  0000 L CNN
-F 2 "" H 9138 14150 50  0001 C CNN
-F 3 "" H 9100 14300 50  0001 C CNN
-	1    9100 14300
+P 6200 14900
+F 0 "C?" H 6315 14946 50  0000 L CNN
+F 1 "C-Device" H 6315 14855 50  0000 L CNN
+F 2 "" H 6238 14750 50  0001 C CNN
+F 3 "" H 6200 14900 50  0001 C CNN
+	1    6200 14900
 	1    0    0    -1  
 $EndComp
 $Comp
 L bldc_controller-rescue:GND-power #PWR?
 U 1 1 6293B2E8
-P 9100 14450
+P 6200 15050
 AR Path="/6293B2E8" Ref="#PWR?"  Part="1" 
 AR Path="/61E03318/6293B2E8" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9100 14200 50  0001 C CNN
-F 1 "GND" H 9105 14277 50  0000 C CNN
-F 2 "" H 9100 14450 50  0001 C CNN
-F 3 "" H 9100 14450 50  0001 C CNN
-	1    9100 14450
+F 0 "#PWR?" H 6200 14800 50  0001 C CNN
+F 1 "GND" H 6205 14877 50  0000 C CNN
+F 2 "" H 6200 15050 50  0001 C CNN
+F 3 "" H 6200 15050 50  0001 C CNN
+	1    6200 15050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9100 14150 9100 14050
-Connection ~ 9100 14050
+	6200 14750 6200 14650
+Connection ~ 6200 14650
 Wire Wire Line
-	9100 14050 8900 14050
+	6200 14650 6000 14650
+Wire Wire Line
+	18300 9050 18750 9050
+Wire Wire Line
+	18300 10200 18750 10200
+Wire Wire Line
+	18600 11300 18750 11300
+Text GLabel 18750 11400 2    50   Input ~ 0
+LO_C
+$Comp
+L bldc_controller-rescue:IRS2003PBF-SamacSys_Parts IC?
+U 1 1 61804574
+P 17300 11200
+F 0 "IC?" H 17800 11465 50  0000 C CNN
+F 1 "IRS2003PBF" H 17800 11374 50  0000 C CNN
+F 2 "DIP762W56P254L988H533Q8N" H 18150 11300 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/0496000" H 18150 11200 50  0001 L CNN
+F 4 "Infineon IRS2003PBF Dual Half Bridge MOSFET Power Driver, 0.6A 8-Pin, PDIP" H 18150 11100 50  0001 L CNN "Description"
+F 5 "5.33" H 18150 11000 50  0001 L CNN "Height"
+F 6 "0496000" H 18150 10900 50  0001 L CNN "RS Part Number"
+F 7 "http://uk.rs-online.com/web/p/products/0496000" H 18150 10800 50  0001 L CNN "RS Price/Stock"
+F 8 "Infineon" H 18150 10700 50  0001 L CNN "Manufacturer_Name"
+F 9 "IRS2003PBF" H 18150 10600 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "70017392" H 18150 10500 50  0001 L CNN "Allied_Number"
+	1    17300 11200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18300 11400 18750 11400
+Text GLabel 17100 8450 0    50   Input ~ 0
+DRIVE_VCC
+Wire Wire Line
+	17100 8450 17300 8450
+Connection ~ 17300 8450
+Text GLabel 17100 9600 0    50   Input ~ 0
+DRIVE_VCC
+Text GLabel 17100 10800 0    50   Input ~ 0
+DRIVE_VCC
+Wire Wire Line
+	17100 9600 17300 9600
+Connection ~ 17300 9600
+Wire Wire Line
+	17300 9600 17700 9600
+Wire Wire Line
+	17100 10800 17300 10800
+Connection ~ 17300 10800
+Wire Wire Line
+	17300 10800 17700 10800
+$Comp
+L bldc_controller-rescue:R-Device R?
+U 1 1 61F5866F
+P 11750 13700
+F 0 "R?" H 11820 13746 50  0000 L CNN
+F 1 "170k" H 11820 13655 50  0000 L CNN
+F 2 "" V 11680 13700 50  0001 C CNN
+F 3 "" H 11750 13700 50  0001 C CNN
+	1    11750 13700
+	1    0    0    -1  
+$EndComp
+$Comp
+L bldc_controller-rescue:R-Device R?
+U 1 1 61F59A01
+P 11750 14200
+F 0 "R?" H 11820 14246 50  0000 L CNN
+F 1 "10k" H 11820 14155 50  0000 L CNN
+F 2 "" V 11680 14200 50  0001 C CNN
+F 3 "" H 11750 14200 50  0001 C CNN
+	1    11750 14200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11750 13850 11750 13950
+$Comp
+L bldc_controller-rescue:R-Device R?
+U 1 1 61F88792
+P 13100 13700
+F 0 "R?" H 13170 13746 50  0000 L CNN
+F 1 "170k" H 13170 13655 50  0000 L CNN
+F 2 "" V 13030 13700 50  0001 C CNN
+F 3 "" H 13100 13700 50  0001 C CNN
+	1    13100 13700
+	1    0    0    -1  
+$EndComp
+$Comp
+L bldc_controller-rescue:R-Device R?
+U 1 1 61F88798
+P 13100 14200
+F 0 "R?" H 13170 14246 50  0000 L CNN
+F 1 "10k" H 13170 14155 50  0000 L CNN
+F 2 "" V 13030 14200 50  0001 C CNN
+F 3 "" H 13100 14200 50  0001 C CNN
+	1    13100 14200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13100 13850 13100 13950
+$Comp
+L bldc_controller-rescue:R-Device R?
+U 1 1 61F9F48F
+P 14450 13700
+F 0 "R?" H 14520 13746 50  0000 L CNN
+F 1 "170k" H 14520 13655 50  0000 L CNN
+F 2 "" V 14380 13700 50  0001 C CNN
+F 3 "" H 14450 13700 50  0001 C CNN
+	1    14450 13700
+	1    0    0    -1  
+$EndComp
+$Comp
+L bldc_controller-rescue:R-Device R?
+U 1 1 61F9F495
+P 14450 14200
+F 0 "R?" H 14520 14246 50  0000 L CNN
+F 1 "10k" H 14520 14155 50  0000 L CNN
+F 2 "" V 14380 14200 50  0001 C CNN
+F 3 "" H 14450 14200 50  0001 C CNN
+	1    14450 14200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14450 13850 14450 13950
+Text GLabel 11600 13400 0    50   Input ~ 0
+MOT_A
+Text GLabel 13000 13400 0    50   Input ~ 0
+MOT_B
+Text GLabel 14300 13400 0    50   Input ~ 0
+MOT_C
+Wire Wire Line
+	11600 13400 11750 13400
+Wire Wire Line
+	11750 13400 11750 13550
+Wire Wire Line
+	13000 13400 13100 13400
+Wire Wire Line
+	13100 13400 13100 13550
+Wire Wire Line
+	14300 13400 14450 13400
+Wire Wire Line
+	14450 13400 14450 13550
+$Comp
+L bldc_controller-rescue:GND-power #PWR?
+U 1 1 6209CD4D
+P 13100 14550
+F 0 "#PWR?" H 13100 14300 50  0001 C CNN
+F 1 "GND-power" H 13105 14377 50  0000 C CNN
+F 2 "" H 13100 14550 50  0001 C CNN
+F 3 "" H 13100 14550 50  0001 C CNN
+	1    13100 14550
+	1    0    0    -1  
+$EndComp
+$Comp
+L bldc_controller-rescue:GND-power #PWR?
+U 1 1 6209DC01
+P 14450 14550
+F 0 "#PWR?" H 14450 14300 50  0001 C CNN
+F 1 "GND-power" H 14455 14377 50  0000 C CNN
+F 2 "" H 14450 14550 50  0001 C CNN
+F 3 "" H 14450 14550 50  0001 C CNN
+	1    14450 14550
+	1    0    0    -1  
+$EndComp
+$Comp
+L mcp6004-e_p:mcp6004-e_p IC?
+U 1 1 61FCADF0
+P 16850 13050
+F 0 "IC?" H 17550 13315 50  0000 C CNN
+F 1 "mcp6004-e_p" H 17550 13224 50  0000 C CNN
+F 2 "DIP781W56P254L1918H533Q14N" H 18100 13150 50  0001 L CNN
+F 3 "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-4/sf-00090086.pdf" H 18100 13050 50  0001 L CNN
+F 4 "Microchip MCP6004-E/P Op Amp, 1MHz, 1.8  6 V Rail-Rail 0.6V/s Linear, 14-pin PDIP" H 18100 12950 50  0001 L CNN "Description"
+F 5 "5.334" H 18100 12850 50  0001 L CNN "Height"
+F 6 "Microchip" H 18100 12750 50  0001 L CNN "Manufacturer_Name"
+F 7 "mcp6004-e/p" H 18100 12650 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "579-MCP6004-E/P" H 18100 12550 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP6004-E-P?qs=L7mmR9vWTYhZNZy3yalAPA%3D%3D" H 18100 12450 50  0001 L CNN "Mouser Price/Stock"
+F 10 "MCP6004-E/P" H 18100 12350 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/mcp6004-ep/microchip-technology?region=nac" H 18100 12250 50  0001 L CNN "Arrow Price/Stock"
+	1    16850 13050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16850 13150 16800 13150
+Wire Wire Line
+	16800 13150 16800 13100
+Wire Wire Line
+	16800 13050 16850 13050
+Wire Wire Line
+	16850 13550 16800 13550
+Wire Wire Line
+	16800 13550 16800 13600
+Wire Wire Line
+	16800 13650 16850 13650
+Wire Wire Line
+	18250 13150 18300 13150
+Wire Wire Line
+	18300 13150 18300 13100
+Wire Wire Line
+	18300 13050 18250 13050
+Wire Wire Line
+	18250 13550 18300 13550
+Wire Wire Line
+	18300 13550 18300 13600
+Wire Wire Line
+	18300 13650 18250 13650
+Text GLabel 18450 13450 2    50   Input ~ 0
+MOT_C_SENSE
+$Comp
+L bldc_controller-rescue:+3.3V-power #PWR?
+U 1 1 6204ED91
+P 16750 12900
+F 0 "#PWR?" H 16750 12750 50  0001 C CNN
+F 1 "+3.3V" H 16765 13073 50  0000 C CNN
+F 2 "" H 16750 12900 50  0001 C CNN
+F 3 "" H 16750 12900 50  0001 C CNN
+	1    16750 12900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18450 13450 18250 13450
+$Comp
+L bldc_controller-rescue:C_Small-Device C?
+U 1 1 6218CD3C
+P 16750 13900
+F 0 "C?" H 16842 13946 50  0000 L CNN
+F 1 "100n" H 16842 13855 50  0000 L CNN
+F 2 "" H 16750 13900 50  0001 C CNN
+F 3 "~" H 16750 13900 50  0001 C CNN
+	1    16750 13900
+	1    0    0    -1  
+$EndComp
+$Comp
+L bldc_controller-rescue:GND-power #PWR?
+U 1 1 6218D982
+P 16750 14050
+F 0 "#PWR?" H 16750 13800 50  0001 C CNN
+F 1 "GND-power" H 16755 13877 50  0000 C CNN
+F 2 "" H 16750 14050 50  0001 C CNN
+F 3 "" H 16750 14050 50  0001 C CNN
+	1    16750 14050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16750 14050 16750 14000
+Text GLabel 16650 13250 0    50   Input ~ 0
+MOT_A_SENSE
+Text GLabel 16650 13450 0    50   Input ~ 0
+MOT_B_SENSE
+Wire Wire Line
+	16750 12900 16750 13350
+Wire Wire Line
+	16650 13250 16850 13250
+Wire Wire Line
+	16650 13450 16850 13450
+Wire Wire Line
+	16850 13350 16750 13350
+Connection ~ 16750 13350
+Wire Wire Line
+	16750 13350 16750 13800
+Text GLabel 11900 13950 2    50   Output ~ 0
+MOT_A_SENSE
+Wire Wire Line
+	11900 13950 11750 13950
+Connection ~ 11750 13950
+Wire Wire Line
+	11750 13950 11750 14050
+Text GLabel 13250 13950 2    50   Output ~ 0
+MOT_B_SENSE
+Text GLabel 14600 13950 2    50   Output ~ 0
+MOT_C_SENSE
+Wire Wire Line
+	13250 13950 13100 13950
+Connection ~ 13100 13950
+Wire Wire Line
+	13100 13950 13100 14050
+Wire Wire Line
+	14600 13950 14450 13950
+Connection ~ 14450 13950
+Wire Wire Line
+	14450 13950 14450 14050
+$Comp
+L bldc_controller-rescue:R-Device R?
+U 1 1 624275B4
+P 10450 13700
+F 0 "R?" H 10520 13746 50  0000 L CNN
+F 1 "170k" H 10520 13655 50  0000 L CNN
+F 2 "" V 10380 13700 50  0001 C CNN
+F 3 "" H 10450 13700 50  0001 C CNN
+	1    10450 13700
+	1    0    0    -1  
+$EndComp
+$Comp
+L bldc_controller-rescue:R-Device R?
+U 1 1 624275BA
+P 10450 14200
+F 0 "R?" H 10520 14246 50  0000 L CNN
+F 1 "10k" H 10520 14155 50  0000 L CNN
+F 2 "" V 10380 14200 50  0001 C CNN
+F 3 "" H 10450 14200 50  0001 C CNN
+	1    10450 14200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 13850 10450 13950
+Wire Wire Line
+	10450 13400 10450 13550
+$Comp
+L bldc_controller-rescue:GND-power #PWR?
+U 1 1 624275C5
+P 10450 14550
+F 0 "#PWR?" H 10450 14300 50  0001 C CNN
+F 1 "GND-power" H 10455 14377 50  0000 C CNN
+F 2 "" H 10450 14550 50  0001 C CNN
+F 3 "" H 10450 14550 50  0001 C CNN
+	1    10450 14550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 13950 10450 13950
+Connection ~ 10450 13950
+Wire Wire Line
+	10450 13950 10450 14050
+$Comp
+L bldc_controller-rescue:+48V-power #PWR?
+U 1 1 6247CB28
+P 10450 13400
+F 0 "#PWR?" H 10450 13250 50  0001 C CNN
+F 1 "+48V" H 10465 13573 50  0000 C CNN
+F 2 "" H 10450 13400 50  0001 C CNN
+F 3 "" H 10450 13400 50  0001 C CNN
+	1    10450 13400
+	1    0    0    -1  
+$EndComp
+Text GLabel 18450 13250 2    50   Input ~ 0
+BATT_SENSE
+Wire Wire Line
+	18250 13250 18450 13250
+Text GLabel 16650 13100 0    50   Output ~ 0
+MOT_A_BUFF
+Text GLabel 16650 13600 0    50   Output ~ 0
+MOT_B_BUFF
+Text GLabel 18450 13100 2    50   Output ~ 0
+BATT_BUFF
+Text GLabel 18450 13600 2    50   Output ~ 0
+MOT_C_BUFF
+Wire Wire Line
+	16650 13100 16800 13100
+Connection ~ 16800 13100
+Wire Wire Line
+	16800 13100 16800 13050
+Wire Wire Line
+	16650 13600 16800 13600
+Connection ~ 16800 13600
+Wire Wire Line
+	16800 13600 16800 13650
+Wire Wire Line
+	18450 13100 18300 13100
+Connection ~ 18300 13100
+Wire Wire Line
+	18300 13100 18300 13050
+Wire Wire Line
+	18450 13600 18300 13600
+Connection ~ 18300 13600
+Wire Wire Line
+	18300 13600 18300 13650
+Text GLabel 6200 9800 2    50   Output ~ 0
+MOT_A_BUFF
+Text GLabel 6200 9650 2    50   Output ~ 0
+MOT_B_BUFF
+Text GLabel 6200 9500 2    50   Output ~ 0
+MOT_C_BUFF
+Text GLabel 6200 9350 2    50   Output ~ 0
+BATT_BUFF
+Wire Notes Line
+	6000 9050 6900 9050
+Wire Notes Line
+	6900 9050 6900 10150
+Wire Notes Line
+	6900 10150 6000 10150
+Wire Notes Line
+	6000 10150 6000 9050
+$Comp
+L bldc_controller-rescue:C-Device C?
+U 1 1 625EB8FD
+P 10150 14200
+F 0 "C?" H 10035 14154 50  0000 R CNN
+F 1 "0.1u" H 10035 14245 50  0000 R CNN
+F 2 "" H 10188 14050 50  0001 C CNN
+F 3 "" H 10150 14200 50  0001 C CNN
+	1    10150 14200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	10450 14550 10450 14450
+Wire Wire Line
+	10150 14450 10450 14450
+Connection ~ 10450 14450
+Wire Wire Line
+	10150 14050 10150 13950
+Wire Wire Line
+	10150 13950 10450 13950
+Wire Wire Line
+	10150 14350 10150 14450
+Wire Wire Line
+	10450 14350 10450 14450
+Wire Wire Line
+	11750 14350 11750 14450
+Text GLabel 10600 13950 2    50   Output ~ 0
+BATT_SENSE
+$Comp
+L bldc_controller-rescue:GND-power #PWR?
+U 1 1 6209AE78
+P 11750 14550
+F 0 "#PWR?" H 11750 14300 50  0001 C CNN
+F 1 "GND-power" H 11755 14377 50  0000 C CNN
+F 2 "" H 11750 14550 50  0001 C CNN
+F 3 "" H 11750 14550 50  0001 C CNN
+	1    11750 14550
+	1    0    0    -1  
+$EndComp
+$Comp
+L bldc_controller-rescue:C-Device C?
+U 1 1 627389BF
+P 11450 14200
+F 0 "C?" H 11335 14154 50  0000 R CNN
+F 1 "0.1u" H 11335 14245 50  0000 R CNN
+F 2 "" H 11488 14050 50  0001 C CNN
+F 3 "" H 11450 14200 50  0001 C CNN
+	1    11450 14200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	11450 14050 11450 13950
+Wire Wire Line
+	11450 13950 11750 13950
+Wire Wire Line
+	11450 14350 11450 14450
+Wire Wire Line
+	11450 14450 11750 14450
+Connection ~ 11750 14450
+Wire Wire Line
+	11750 14450 11750 14550
+$Comp
+L bldc_controller-rescue:C-Device C?
+U 1 1 628CF23B
+P 12800 14200
+F 0 "C?" H 12685 14154 50  0000 R CNN
+F 1 "0.1u" H 12685 14245 50  0000 R CNN
+F 2 "" H 12838 14050 50  0001 C CNN
+F 3 "" H 12800 14200 50  0001 C CNN
+	1    12800 14200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	12800 14450 13100 14450
+Wire Wire Line
+	12800 14050 12800 13950
+Wire Wire Line
+	12800 13950 13100 13950
+Wire Wire Line
+	12800 14350 12800 14450
+$Comp
+L bldc_controller-rescue:C-Device C?
+U 1 1 628EF0B5
+P 14150 14200
+F 0 "C?" H 14035 14154 50  0000 R CNN
+F 1 "0.1u" H 14035 14245 50  0000 R CNN
+F 2 "" H 14188 14050 50  0001 C CNN
+F 3 "" H 14150 14200 50  0001 C CNN
+	1    14150 14200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	14150 14450 14450 14450
+Wire Wire Line
+	14150 14050 14150 13950
+Wire Wire Line
+	14150 13950 14450 13950
+Wire Wire Line
+	14150 14350 14150 14450
+Wire Wire Line
+	13100 14550 13100 14450
+Wire Wire Line
+	13100 14350 13100 14450
+Connection ~ 13100 14450
+Wire Wire Line
+	14450 14350 14450 14450
+Wire Wire Line
+	14450 14550 14450 14450
+Connection ~ 14450 14450
 $EndSCHEMATC
