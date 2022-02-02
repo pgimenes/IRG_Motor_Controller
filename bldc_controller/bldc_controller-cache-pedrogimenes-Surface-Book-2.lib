@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# +3.3V-power
+# bldc_controller-rescue_+3.3V-power
 #
-DEF +3.3V-power #PWR 0 0 Y Y 1 F P
+DEF bldc_controller-rescue_+3.3V-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "+3.3V-power" 0 140 50 H V C CNN
+F1 "bldc_controller-rescue_+3.3V-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# +3.3VA-power
+# bldc_controller-rescue_+3.3VA-power
 #
-DEF +3.3VA-power #PWR 0 0 Y Y 1 F P
+DEF bldc_controller-rescue_+3.3VA-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "+3.3VA-power" 0 140 50 H V C CNN
+F1 "bldc_controller-rescue_+3.3VA-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -31,11 +31,11 @@ X +3.3VA 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# +48V-power
+# bldc_controller-rescue_+48V-power
 #
-DEF +48V-power #PWR 0 0 Y Y 1 F P
+DEF bldc_controller-rescue_+48V-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "+48V-power" 0 140 50 H V C CNN
+F1 "bldc_controller-rescue_+48V-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -46,11 +46,11 @@ X +48V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# +5V-power
+# bldc_controller-rescue_+5V-power
 #
-DEF +5V-power #PWR 0 0 Y Y 1 F P
+DEF bldc_controller-rescue_+5V-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "+5V-power" 0 140 50 H V C CNN
+F1 "bldc_controller-rescue_+5V-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -61,11 +61,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# ACS37002LMABTR-066B3-ACS37002LMABTR-066B3
+# bldc_controller-rescue_ACS37002LMABTR-066B3-ACS37002LMABTR-066B3
 #
-DEF ACS37002LMABTR-066B3-ACS37002LMABTR-066B3 IC 0 30 Y Y 1 F N
+DEF bldc_controller-rescue_ACS37002LMABTR-066B3-ACS37002LMABTR-066B3 IC 0 30 Y Y 1 F N
 F0 "IC" 1350 300 50 H V L CNN
-F1 "ACS37002LMABTR-066B3-ACS37002LMABTR-066B3" 1350 200 50 H V L CNN
+F1 "bldc_controller-rescue_ACS37002LMABTR-066B3-ACS37002LMABTR-066B3" 1350 200 50 H V L CNN
 F2 "SOIC127P1030X265-16N" 1350 100 50 H I L CNN
 F3 "https://www.allegromicro.com/-/media/files/datasheets/acs37002-datasheet.ashx?sc_lang=en&hash=FFD236A6D18C7717C5A7906548FB48D2" 1350 0 50 H I L CNN
 F4 "400 kHz, High Accuracy Current Sensor with Pin-Selectable Gains" 1350 -100 50 H I L CNN "Description"
@@ -95,11 +95,11 @@ X ~OCF 9 1500 -700 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# C-Device
+# bldc_controller-rescue_C-Device
 #
-DEF C-Device C 0 10 N Y 1 F N
+DEF bldc_controller-rescue_C-Device C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "C-Device" 25 -100 50 H V L CNN
+F1 "bldc_controller-rescue_C-Device" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -113,11 +113,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# C_Small-Device
+# bldc_controller-rescue_C_Small-Device
 #
-DEF C_Small-Device C 0 10 N N 1 F N
+DEF bldc_controller-rescue_C_Small-Device C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "C_Small-Device" 10 -80 50 H V L CNN
+F1 "bldc_controller-rescue_C_Small-Device" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -131,11 +131,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Conn_02x05_Odd_Even-Connector_Generic
+# bldc_controller-rescue_Conn_02x05_Odd_Even-Connector_Generic
 #
-DEF Conn_02x05_Odd_Even-Connector_Generic J 0 40 Y N 1 F N
+DEF bldc_controller-rescue_Conn_02x05_Odd_Even-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 50 300 50 H V C CNN
-F1 "Conn_02x05_Odd_Even-Connector_Generic" 50 -300 50 H V C CNN
+F1 "bldc_controller-rescue_Conn_02x05_Odd_Even-Connector_Generic" 50 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -166,11 +166,11 @@ X Pin_9 9 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Crystal_GND24-Device
+# bldc_controller-rescue_Crystal_GND24-Device
 #
-DEF Crystal_GND24-Device Y 0 40 Y N 1 F N
+DEF bldc_controller-rescue_Crystal_GND24-Device Y 0 40 Y N 1 F N
 F0 "Y" 125 200 50 H V L CNN
-F1 "Crystal_GND24-Device" 125 125 50 H V L CNN
+F1 "bldc_controller-rescue_Crystal_GND24-Device" 125 125 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -193,55 +193,11 @@ X 4 4 0 -200 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# D-Device
+# bldc_controller-rescue_D_Small-Device
 #
-DEF D-Device D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "D-Device" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- TO-???*
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 10 -50 50 -50 -50 N
-P 2 0 1 0 50 0 -50 0 N
-P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# D_Schottky-Device
-#
-DEF D_Schottky-Device D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "D_Schottky-Device" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- TO-???*
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 50 0 -50 0 N
-P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
-P 6 0 1 10 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# D_Small-Device
-#
-DEF D_Small-Device D 0 10 N N 1 F N
+DEF bldc_controller-rescue_D_Small-Device D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
-F1 "D_Small-Device" -150 -80 50 H V L CNN
+F1 "bldc_controller-rescue_D_Small-Device" -150 -80 50 H V L CNN
 F2 "" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST
@@ -259,11 +215,11 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Ferrite_Bead-Device
+# bldc_controller-rescue_Ferrite_Bead-Device
 #
-DEF Ferrite_Bead-Device FB 0 0 N Y 1 F N
+DEF bldc_controller-rescue_Ferrite_Bead-Device FB 0 0 N Y 1 F N
 F0 "FB" -150 25 50 V V C CNN
-F1 "Ferrite_Bead-Device" 150 0 50 V V C CNN
+F1 "bldc_controller-rescue_Ferrite_Bead-Device" 150 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -280,11 +236,11 @@ X ~ 2 0 -150 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GND-power
+# bldc_controller-rescue_GND-power
 #
-DEF GND-power #PWR 0 0 Y Y 1 F P
+DEF bldc_controller-rescue_GND-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "GND-power" 0 -150 50 H V C CNN
+F1 "bldc_controller-rescue_GND-power" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -293,11 +249,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# IRS2003PBF-SamacSys_Parts
+# bldc_controller-rescue_IRS2003PBF-SamacSys_Parts
 #
-DEF IRS2003PBF-SamacSys_Parts IC 0 30 Y Y 1 F N
+DEF bldc_controller-rescue_IRS2003PBF-SamacSys_Parts IC 0 30 Y Y 1 F N
 F0 "IC" 850 300 50 H V L CNN
-F1 "IRS2003PBF-SamacSys_Parts" 850 200 50 H V L CNN
+F1 "bldc_controller-rescue_IRS2003PBF-SamacSys_Parts" 850 200 50 H V L CNN
 F2 "DIP762W56P254L988H533Q8N" 850 100 50 H I L CNN
 F3 "http://uk.rs-online.com/web/p/products/0496000" 850 0 50 H I L CNN
 F4 "Infineon IRS2003PBF Dual Half Bridge MOSFET Power Driver, 0.6A 8-Pin, PDIP" 850 -100 50 H I L CNN "Description"
@@ -320,11 +276,11 @@ X VB 8 1000 0 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# L-Device
+# bldc_controller-rescue_L-Device
 #
-DEF L-Device L 0 40 N N 1 F N
+DEF bldc_controller-rescue_L-Device L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "L-Device" 75 0 50 V V C CNN
+F1 "bldc_controller-rescue_L-Device" 75 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -343,11 +299,11 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# LED-Device
+# bldc_controller-rescue_LED-Device
 #
-DEF LED-Device D 0 40 N N 1 F N
+DEF bldc_controller-rescue_LED-Device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "LED-Device" 0 -100 50 H V C CNN
+F1 "bldc_controller-rescue_LED-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -366,11 +322,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# LF33CV-LF33CV
+# bldc_controller-rescue_LF33CV-LF33CV
 #
-DEF LF33CV-LF33CV IC 0 30 Y Y 1 F N
+DEF bldc_controller-rescue_LF33CV-LF33CV IC 0 30 Y Y 1 F N
 F0 "IC" 850 300 50 H V L CNN
-F1 "LF33CV-LF33CV" 850 200 50 H V L CNN
+F1 "bldc_controller-rescue_LF33CV-LF33CV" 850 200 50 H V L CNN
 F2 "TO255P460X1020X2008-3P" 850 100 50 H I L CNN
 F3 "http://www.st.com/web/en/resource/technical/document/datasheet/CD00000546.pdf" 850 0 50 H I L CNN
 F4 "LF33CV, Low Dropout Voltage Regulator, 0.5A, 3.3 V +/-2%, 3-Pin TO-220" 850 -100 50 H I L CNN "Description"
@@ -389,11 +345,11 @@ X OUTPUT 3 0 -200 200 R 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# Polyfuse-Device
+# bldc_controller-rescue_Polyfuse-Device
 #
-DEF Polyfuse-Device F 0 0 N Y 1 F N
+DEF bldc_controller-rescue_Polyfuse-Device F 0 0 N Y 1 F N
 F0 "F" -100 0 50 V V C CNN
-F1 "Polyfuse-Device" 100 0 50 V V C CNN
+F1 "bldc_controller-rescue_Polyfuse-Device" 100 0 50 V V C CNN
 F2 "" 50 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -409,11 +365,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Q_NMOS_GSD-Device
+# bldc_controller-rescue_Q_NMOS_GSD-Device
 #
-DEF Q_NMOS_GSD-Device Q 0 0 Y N 1 F N
+DEF bldc_controller-rescue_Q_NMOS_GSD-Device Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "Q_NMOS_GSD-Device" 200 -50 50 H V L CNN
+F1 "bldc_controller-rescue_Q_NMOS_GSD-Device" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -437,11 +393,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Q_PMOS_GSD-Device
+# bldc_controller-rescue_Q_PMOS_GSD-Device
 #
-DEF Q_PMOS_GSD-Device Q 0 0 Y N 1 F N
+DEF bldc_controller-rescue_Q_PMOS_GSD-Device Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "Q_PMOS_GSD-Device" 200 -50 50 H V L CNN
+F1 "bldc_controller-rescue_Q_PMOS_GSD-Device" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -465,11 +421,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R-78HB3.3-0.5L-R-78HB3.3-0.5L
+# bldc_controller-rescue_R-78HB3.3-0.5L-R-78HB3.3-0.5L
 #
-DEF R-78HB3.3-0.5L-R-78HB3.3-0.5L PS 0 30 Y Y 1 F N
+DEF bldc_controller-rescue_R-78HB3.3-0.5L-R-78HB3.3-0.5L PS 0 30 Y Y 1 F N
 F0 "PS" 850 300 50 H V L CNN
-F1 "R-78HB3.3-0.5L-R-78HB3.3-0.5L" 850 200 50 H V L CNN
+F1 "bldc_controller-rescue_R-78HB3.3-0.5L-R-78HB3.3-0.5L" 850 200 50 H V L CNN
 F2 "R78HB3305L" 850 100 50 H I L CNN
 F3 "http://uk.rs-online.com/web/p/products/1668991" 850 0 50 H I L CNN
 F4 "Recom Switching Regulator, 9  72V dc Input, 3.3V dc Output, 500mA" 850 -100 50 H I L CNN "Description"
@@ -488,11 +444,11 @@ X +VOUT 3 0 -200 200 R 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# R-Device
+# bldc_controller-rescue_R-Device
 #
-DEF R-Device R 0 0 N Y 1 F N
+DEF bldc_controller-rescue_R-Device R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R-Device" 0 0 50 V V C CNN
+F1 "bldc_controller-rescue_R-Device" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -505,11 +461,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_Small-Device
+# bldc_controller-rescue_R_Small-Device
 #
-DEF R_Small-Device R 0 10 N N 1 F N
+DEF bldc_controller-rescue_R_Small-Device R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "R_Small-Device" 30 -40 50 H V L CNN
+F1 "bldc_controller-rescue_R_Small-Device" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -522,11 +478,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# STM32F407ZETx-MCU_ST_STM32F4
+# bldc_controller-rescue_STM32F407ZETx-MCU_ST_STM32F4
 #
-DEF STM32F407ZETx-MCU_ST_STM32F4 U 0 20 Y Y 1 F N
+DEF bldc_controller-rescue_STM32F407ZETx-MCU_ST_STM32F4 U 0 20 Y Y 1 F N
 F0 "U" -1000 3450 50 H V L CNN
-F1 "STM32F407ZETx-MCU_ST_STM32F4" 800 3450 50 H V L CNN
+F1 "bldc_controller-rescue_STM32F407ZETx-MCU_ST_STM32F4" 800 3450 50 H V L CNN
 F2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" -1000 -3400 50 H I R CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -681,11 +637,11 @@ X PC9 99 1200 -1000 200 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# SW_SPDT-Switch
+# bldc_controller-rescue_SW_SPDT-Switch
 #
-DEF SW_SPDT-Switch SW 0 0 Y N 1 F N
+DEF bldc_controller-rescue_SW_SPDT-Switch SW 0 0 Y N 1 F N
 F0 "SW" 0 170 50 H V C CNN
-F1 "SW_SPDT-Switch" 0 -200 50 H V C CNN
+F1 "bldc_controller-rescue_SW_SPDT-Switch" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -699,11 +655,11 @@ X C 3 200 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Screw_Terminal_01x02-Connector
+# bldc_controller-rescue_Screw_Terminal_01x02-Connector
 #
-DEF Screw_Terminal_01x02-Connector J 0 40 Y N 1 F N
+DEF bldc_controller-rescue_Screw_Terminal_01x02-Connector J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Screw_Terminal_01x02-Connector" 0 -200 50 H V C CNN
+F1 "bldc_controller-rescue_Screw_Terminal_01x02-Connector" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -722,11 +678,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Screw_Terminal_01x03-Connector
+# bldc_controller-rescue_Screw_Terminal_01x03-Connector
 #
-DEF Screw_Terminal_01x03-Connector J 0 40 Y N 1 F N
+DEF bldc_controller-rescue_Screw_Terminal_01x03-Connector J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Screw_Terminal_01x03-Connector" 0 -200 50 H V C CNN
+F1 "bldc_controller-rescue_Screw_Terminal_01x03-Connector" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -749,35 +705,11 @@ X Pin_3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TPS54360DDA-Regulator_Switching
+# bldc_controller-rescue_USBLC6-2SC6-Power_Protection
 #
-DEF TPS54360DDA-Regulator_Switching U 0 10 Y Y 1 F N
-F0 "U" -300 450 50 H V L CNN
-F1 "TPS54360DDA-Regulator_Switching" -300 350 50 H V L CNN
-F2 "Package_SO:TI_SO-PowerPAD-8_ThermalVias" 50 -450 50 H I L CIN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- TI*SO*PowerPAD*ThermalVias*
-$ENDFPLIST
-DRAW
-S -300 300 300 -400 0 1 10 f
-X BOOT 1 400 200 100 L 50 50 1 1 I
-X VIN 2 -400 200 100 R 50 50 1 1 W
-X EN 3 -400 -300 100 R 50 50 1 1 I
-X RT/CLK 4 -400 0 100 R 50 50 1 1 I
-X FB 5 400 -300 100 L 50 50 1 1 I
-X COMP 6 400 -100 100 L 50 50 1 1 P
-X GND 7 -100 -500 100 U 50 50 1 1 W
-X SW 8 400 0 100 L 50 50 1 1 O
-X GNDPAD 9 0 -500 100 U 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# USBLC6-2SC6-Power_Protection
-#
-DEF USBLC6-2SC6-Power_Protection U 0 20 Y N 1 F N
+DEF bldc_controller-rescue_USBLC6-2SC6-Power_Protection U 0 20 Y N 1 F N
 F0 "U" 100 350 50 H V L CNN
-F1 "USBLC6-2SC6-Power_Protection" 100 -350 50 H V L CNN
+F1 "bldc_controller-rescue_USBLC6-2SC6-Power_Protection" 100 -350 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23-6" 0 -500 50 H I C CNN
 F3 "" 200 350 50 H I C CNN
 $FPLIST
@@ -823,11 +755,11 @@ X I/O1 6 -400 100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# USB_B_Micro-Connector
+# bldc_controller-rescue_USB_B_Micro-Connector
 #
-DEF USB_B_Micro-Connector J 0 40 Y Y 1 F N
+DEF bldc_controller-rescue_USB_B_Micro-Connector J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "USB_B_Micro-Connector" -200 350 50 H V L CNN
+F1 "bldc_controller-rescue_USB_B_Micro-Connector" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 $FPLIST
@@ -855,40 +787,6 @@ X D+ 3 300 0 100 L 50 50 1 1 B
 X ID 4 300 -200 100 L 50 50 1 1 P
 X GND 5 0 -400 100 U 50 50 1 1 w
 X Shield 6 -100 -400 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# mcp6004-e_p-mcp6004-e_p
-#
-DEF mcp6004-e_p-mcp6004-e_p IC 0 30 Y Y 1 F N
-F0 "IC" 1250 300 50 H V L CNN
-F1 "mcp6004-e_p-mcp6004-e_p" 1250 200 50 H V L CNN
-F2 "DIP781W56P254L1918H533Q14N" 1250 100 50 H I L CNN
-F3 "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-4/sf-00090086.pdf" 1250 0 50 H I L CNN
-F4 "Microchip MCP6004-E/P Op Amp, 1MHz, 1.8  6 V Rail-Rail 0.6V/s Linear, 14-pin PDIP" 1250 -100 50 H I L CNN "Description"
-F5 "5.334" 1250 -200 50 H I L CNN "Height"
-F6 "Microchip" 1250 -300 50 H I L CNN "Manufacturer_Name"
-F7 "mcp6004-e/p" 1250 -400 50 H I L CNN "Manufacturer_Part_Number"
-F8 "579-MCP6004-E/P" 1250 -500 50 H I L CNN "Mouser Part Number"
-F9 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP6004-E-P?qs=L7mmR9vWTYhZNZy3yalAPA%3D%3D" 1250 -600 50 H I L CNN "Mouser Price/Stock"
-F10 "MCP6004-E/P" 1250 -700 50 H I L CNN "Arrow Part Number"
-F11 "https://www.arrow.com/en/products/mcp6004-ep/microchip-technology?region=nac" 1250 -800 50 H I L CNN "Arrow Price/Stock"
-DRAW
-P 5 0 1 6 200 100 1200 100 1200 -700 200 -700 200 100 N
-X VOUTA 1 0 0 200 R 50 50 0 0 O
-X VINC+ 10 1400 -400 200 L 50 50 0 0 I
-X VSS 11 1400 -300 200 L 50 50 0 0 W
-X VIND+ 12 1400 -200 200 L 50 50 0 0 I
-X VIND- 13 1400 -100 200 L 50 50 0 0 I
-X VOUTD 14 1400 0 200 L 50 50 0 0 O
-X VINA- 2 0 -100 200 R 50 50 0 0 I
-X VINA+ 3 0 -200 200 R 50 50 0 0 I
-X VDD 4 0 -300 200 R 50 50 0 0 W
-X VINB+ 5 0 -400 200 R 50 50 0 0 I
-X VINB- 6 0 -500 200 R 50 50 0 0 I
-X VOUTB 7 0 -600 200 R 50 50 0 0 O
-X VOUTC 8 1400 -600 200 L 50 50 0 0 O
-X VINC- 9 1400 -500 200 L 50 50 0 0 I
 ENDDRAW
 ENDDEF
 #

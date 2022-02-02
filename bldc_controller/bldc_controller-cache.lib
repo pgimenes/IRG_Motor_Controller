@@ -1,83 +1,26 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# ACS37002LMABTR-066B3_ACS37002LMABTR-066B3
+# Connector_Conn_01x03_Male
 #
-DEF ACS37002LMABTR-066B3_ACS37002LMABTR-066B3 IC 0 30 Y Y 1 F N
-F0 "IC" 1350 300 50 H V L CNN
-F1 "ACS37002LMABTR-066B3_ACS37002LMABTR-066B3" 1350 200 50 H V L CNN
-F2 "SOIC127P1030X265-16N" 1350 100 50 H I L CNN
-F3 "https://www.allegromicro.com/-/media/files/datasheets/acs37002-datasheet.ashx?sc_lang=en&hash=FFD236A6D18C7717C5A7906548FB48D2" 1350 0 50 H I L CNN
-F4 "400 kHz, High Accuracy Current Sensor with Pin-Selectable Gains" 1350 -100 50 H I L CNN "Description"
-F5 "2.65" 1350 -200 50 H I L CNN "Height"
-F6 "Allegro Microsystems" 1350 -300 50 H I L CNN "Manufacturer_Name"
-F7 "ACS37002LMABTR-066B3" 1350 -400 50 H I L CNN "Manufacturer_Part_Number"
-F8 "ACS37002LMABTR-066B3" 1350 -700 50 H I L CNN "Arrow Part Number"
-F9 "https://www.arrow.com/en/products/acs37002lmabtr-066b3/allegro-microsystems" 1350 -800 50 H I L CNN "Arrow Price/Stock"
+DEF Connector_Conn_01x03_Male J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Conn_01x03_Male" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
 DRAW
-P 5 0 1 6 200 100 1300 100 1300 -800 200 -800 200 100 N
-X IP+_1 1 0 0 200 R 50 50 0 0 P
-X VCC 10 1500 -600 200 L 50 50 0 0 P
-X VOC 11 1500 -500 200 L 50 50 0 0 P
-X VIOUT 12 1500 -400 200 L 50 50 0 0 P
-X VREF 13 1500 -300 200 L 50 50 0 0 P
-X GAIN_SEL_1 14 1500 -200 200 L 50 50 0 0 P
-X GND 15 1500 -100 200 L 50 50 0 0 P
-X GAIN_SEL_0 16 1500 0 200 L 50 50 0 0 P
-X IP+_2 2 0 -100 200 R 50 50 0 0 P
-X IP+_3 3 0 -200 200 R 50 50 0 0 P
-X IP+_4 4 0 -300 200 R 50 50 0 0 P
-X IP-_1 5 0 -400 200 R 50 50 0 0 P
-X IP-_2 6 0 -500 200 R 50 50 0 0 P
-X IP-_3 7 0 -600 200 R 50 50 0 0 P
-X IP-_4 8 0 -700 200 R 50 50 0 0 P
-X ~OCF 9 1500 -700 200 L 50 50 0 0 P
-ENDDRAW
-ENDDEF
-#
-# LF33CV_LF33CV
-#
-DEF LF33CV_LF33CV IC 0 30 Y Y 1 F N
-F0 "IC" 850 300 50 H V L CNN
-F1 "LF33CV_LF33CV" 850 200 50 H V L CNN
-F2 "TO255P460X1020X2008-3P" 850 100 50 H I L CNN
-F3 "http://www.st.com/web/en/resource/technical/document/datasheet/CD00000546.pdf" 850 0 50 H I L CNN
-F4 "LF33CV, Low Dropout Voltage Regulator, 0.5A, 3.3 V +/-2%, 3-Pin TO-220" 850 -100 50 H I L CNN "Description"
-F5 "4.6" 850 -200 50 H I L CNN "Height"
-F6 "STMicroelectronics" 850 -300 50 H I L CNN "Manufacturer_Name"
-F7 "LF33CV" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
-F8 "511-LF33CV" 850 -500 50 H I L CNN "Mouser Part Number"
-F9 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LF33CV?qs=LPKLnBpMevjK%252B28MZYQO9Q%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
-F10 "LF33CV" 850 -700 50 H I L CNN "Arrow Part Number"
-F11 "https://www.arrow.com/en/products/lf33cv/stmicroelectronics?region=nac" 850 -800 50 H I L CNN "Arrow Price/Stock"
-DRAW
-P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
-X INPUT 1 0 0 200 R 50 50 0 0 P
-X GND 2 0 -100 200 R 50 50 0 0 P
-X OUTPUT 3 0 -200 200 R 50 50 0 0 P
-ENDDRAW
-ENDDEF
-#
-# R-78HB3.3-0.5L_R-78HB3.3-0.5L
-#
-DEF R-78HB3.3-0.5L_R-78HB3.3-0.5L PS 0 30 Y Y 1 F N
-F0 "PS" 850 300 50 H V L CNN
-F1 "R-78HB3.3-0.5L_R-78HB3.3-0.5L" 850 200 50 H V L CNN
-F2 "R78HB3305L" 850 100 50 H I L CNN
-F3 "http://uk.rs-online.com/web/p/products/1668991" 850 0 50 H I L CNN
-F4 "Recom Switching Regulator, 9  72V dc Input, 3.3V dc Output, 500mA" 850 -100 50 H I L CNN "Description"
-F5 "8.75" 850 -200 50 H I L CNN "Height"
-F6 "RECOM Power" 850 -300 50 H I L CNN "Manufacturer_Name"
-F7 "R-78HB3.3-0.5L" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
-F8 "919-R-78HB3.3-0.5L" 850 -500 50 H I L CNN "Mouser Part Number"
-F9 "https://www.mouser.co.uk/ProductDetail/RECOM-Power/R-78HB33-05L?qs=XF8hdbuHJAUzicXuP8uCaA%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
-F10 "R-78HB3.3-0.5L" 850 -700 50 H I L CNN "Arrow Part Number"
-F11 "https://www.arrow.com/en/products/r-78hb3.3-0.5l/recom-power" 850 -800 50 H I L CNN "Arrow Price/Stock"
-DRAW
-P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
-X +VIN 1 0 0 200 R 50 50 0 0 P
-X GND 2 0 -100 200 R 50 50 0 0 P
-X +VOUT 3 0 -200 200 R 50 50 0 0 P
+S 34 -95 0 -105 1 1 6 F
+S 34 5 0 -5 1 1 6 F
+S 34 105 0 95 1 1 6 F
+P 2 1 1 6 50 -100 34 -100 N
+P 2 1 1 6 50 0 34 0 N
+P 2 1 1 6 50 100 34 100 N
+X Pin_1 1 200 100 150 L 50 50 1 1 P
+X Pin_2 2 200 0 150 L 50 50 1 1 P
+X Pin_3 3 200 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -138,6 +81,40 @@ P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N
 P 2 0 1 0 0 100 30 50 N
 X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# bldc_controller-rescue_ACS37002LMABTR-066B3-ACS37002LMABTR-066B3
+#
+DEF bldc_controller-rescue_ACS37002LMABTR-066B3-ACS37002LMABTR-066B3 IC 0 30 Y Y 1 F N
+F0 "IC" 1350 300 50 H V L CNN
+F1 "bldc_controller-rescue_ACS37002LMABTR-066B3-ACS37002LMABTR-066B3" 1350 200 50 H V L CNN
+F2 "SOIC127P1030X265-16N" 1350 100 50 H I L CNN
+F3 "https://www.allegromicro.com/-/media/files/datasheets/acs37002-datasheet.ashx?sc_lang=en&hash=FFD236A6D18C7717C5A7906548FB48D2" 1350 0 50 H I L CNN
+F4 "400 kHz, High Accuracy Current Sensor with Pin-Selectable Gains" 1350 -100 50 H I L CNN "Description"
+F5 "2.65" 1350 -200 50 H I L CNN "Height"
+F6 "Allegro Microsystems" 1350 -300 50 H I L CNN "Manufacturer_Name"
+F7 "ACS37002LMABTR-066B3" 1350 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "ACS37002LMABTR-066B3" 1350 -700 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/acs37002lmabtr-066b3/allegro-microsystems" 1350 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 200 100 1300 100 1300 -800 200 -800 200 100 N
+X IP+_1 1 0 0 200 R 50 50 0 0 P
+X VCC 10 1500 -600 200 L 50 50 0 0 P
+X VOC 11 1500 -500 200 L 50 50 0 0 P
+X VIOUT 12 1500 -400 200 L 50 50 0 0 P
+X VREF 13 1500 -300 200 L 50 50 0 0 P
+X GAIN_SEL_1 14 1500 -200 200 L 50 50 0 0 P
+X GND 15 1500 -100 200 L 50 50 0 0 P
+X GAIN_SEL_0 16 1500 0 200 L 50 50 0 0 P
+X IP+_2 2 0 -100 200 R 50 50 0 0 P
+X IP+_3 3 0 -200 200 R 50 50 0 0 P
+X IP+_4 4 0 -300 200 R 50 50 0 0 P
+X IP-_1 5 0 -400 200 R 50 50 0 0 P
+X IP-_2 6 0 -500 200 R 50 50 0 0 P
+X IP-_3 7 0 -600 200 R 50 50 0 0 P
+X IP-_4 8 0 -700 200 R 50 50 0 0 P
+X ~OCF 9 1500 -700 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
@@ -368,6 +345,29 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# bldc_controller-rescue_LF33CV-LF33CV
+#
+DEF bldc_controller-rescue_LF33CV-LF33CV IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "bldc_controller-rescue_LF33CV-LF33CV" 850 200 50 H V L CNN
+F2 "TO255P460X1020X2008-3P" 850 100 50 H I L CNN
+F3 "http://www.st.com/web/en/resource/technical/document/datasheet/CD00000546.pdf" 850 0 50 H I L CNN
+F4 "LF33CV, Low Dropout Voltage Regulator, 0.5A, 3.3 V +/-2%, 3-Pin TO-220" 850 -100 50 H I L CNN "Description"
+F5 "4.6" 850 -200 50 H I L CNN "Height"
+F6 "STMicroelectronics" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "LF33CV" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "511-LF33CV" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LF33CV?qs=LPKLnBpMevjK%252B28MZYQO9Q%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "LF33CV" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/lf33cv/stmicroelectronics?region=nac" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+X INPUT 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X OUTPUT 3 0 -200 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # bldc_controller-rescue_Polyfuse-Device
 #
 DEF bldc_controller-rescue_Polyfuse-Device F 0 0 N Y 1 F N
@@ -441,6 +441,29 @@ P 4 0 1 0 130 -15 115 10 145 10 130 -15 N
 X G 1 -200 0 100 R 50 50 1 1 I
 X S 2 100 -200 100 U 50 50 1 1 P
 X D 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# bldc_controller-rescue_R-78HB3.3-0.5L-R-78HB3.3-0.5L
+#
+DEF bldc_controller-rescue_R-78HB3.3-0.5L-R-78HB3.3-0.5L PS 0 30 Y Y 1 F N
+F0 "PS" 850 300 50 H V L CNN
+F1 "bldc_controller-rescue_R-78HB3.3-0.5L-R-78HB3.3-0.5L" 850 200 50 H V L CNN
+F2 "R78HB3305L" 850 100 50 H I L CNN
+F3 "http://uk.rs-online.com/web/p/products/1668991" 850 0 50 H I L CNN
+F4 "Recom Switching Regulator, 9  72V dc Input, 3.3V dc Output, 500mA" 850 -100 50 H I L CNN "Description"
+F5 "8.75" 850 -200 50 H I L CNN "Height"
+F6 "RECOM Power" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "R-78HB3.3-0.5L" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "919-R-78HB3.3-0.5L" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/RECOM-Power/R-78HB33-05L?qs=XF8hdbuHJAUzicXuP8uCaA%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "R-78HB3.3-0.5L" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/r-78hb3.3-0.5l/recom-power" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+X +VIN 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X +VOUT 3 0 -200 200 R 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
@@ -790,11 +813,11 @@ X Shield 6 -100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# mcp6004-e_p_mcp6004-e_p
+# bldc_controller-rescue_mcp6004-e_p-mcp6004-e_p
 #
-DEF mcp6004-e_p_mcp6004-e_p IC 0 30 Y Y 1 F N
+DEF bldc_controller-rescue_mcp6004-e_p-mcp6004-e_p IC 0 30 Y Y 1 F N
 F0 "IC" 1250 300 50 H V L CNN
-F1 "mcp6004-e_p_mcp6004-e_p" 1250 200 50 H V L CNN
+F1 "bldc_controller-rescue_mcp6004-e_p-mcp6004-e_p" 1250 200 50 H V L CNN
 F2 "DIP781W56P254L1918H533Q14N" 1250 100 50 H I L CNN
 F3 "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-4/sf-00090086.pdf" 1250 0 50 H I L CNN
 F4 "Microchip MCP6004-E/P Op Amp, 1MHz, 1.8  6 V Rail-Rail 0.6V/s Linear, 14-pin PDIP" 1250 -100 50 H I L CNN "Description"

@@ -858,38 +858,4 @@ X Shield 6 -100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# mcp6004-e_p-mcp6004-e_p
-#
-DEF mcp6004-e_p-mcp6004-e_p IC 0 30 Y Y 1 F N
-F0 "IC" 1250 300 50 H V L CNN
-F1 "mcp6004-e_p-mcp6004-e_p" 1250 200 50 H V L CNN
-F2 "DIP781W56P254L1918H533Q14N" 1250 100 50 H I L CNN
-F3 "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-4/sf-00090086.pdf" 1250 0 50 H I L CNN
-F4 "Microchip MCP6004-E/P Op Amp, 1MHz, 1.8  6 V Rail-Rail 0.6V/s Linear, 14-pin PDIP" 1250 -100 50 H I L CNN "Description"
-F5 "5.334" 1250 -200 50 H I L CNN "Height"
-F6 "Microchip" 1250 -300 50 H I L CNN "Manufacturer_Name"
-F7 "mcp6004-e/p" 1250 -400 50 H I L CNN "Manufacturer_Part_Number"
-F8 "579-MCP6004-E/P" 1250 -500 50 H I L CNN "Mouser Part Number"
-F9 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP6004-E-P?qs=L7mmR9vWTYhZNZy3yalAPA%3D%3D" 1250 -600 50 H I L CNN "Mouser Price/Stock"
-F10 "MCP6004-E/P" 1250 -700 50 H I L CNN "Arrow Part Number"
-F11 "https://www.arrow.com/en/products/mcp6004-ep/microchip-technology?region=nac" 1250 -800 50 H I L CNN "Arrow Price/Stock"
-DRAW
-P 5 0 1 6 200 100 1200 100 1200 -700 200 -700 200 100 N
-X VOUTA 1 0 0 200 R 50 50 0 0 O
-X VINC+ 10 1400 -400 200 L 50 50 0 0 I
-X VSS 11 1400 -300 200 L 50 50 0 0 W
-X VIND+ 12 1400 -200 200 L 50 50 0 0 I
-X VIND- 13 1400 -100 200 L 50 50 0 0 I
-X VOUTD 14 1400 0 200 L 50 50 0 0 O
-X VINA- 2 0 -100 200 R 50 50 0 0 I
-X VINA+ 3 0 -200 200 R 50 50 0 0 I
-X VDD 4 0 -300 200 R 50 50 0 0 W
-X VINB+ 5 0 -400 200 R 50 50 0 0 I
-X VINB- 6 0 -500 200 R 50 50 0 0 I
-X VOUTB 7 0 -600 200 R 50 50 0 0 O
-X VOUTC 8 1400 -600 200 L 50 50 0 0 O
-X VINC- 9 1400 -500 200 L 50 50 0 0 I
-ENDDRAW
-ENDDEF
-#
 #End Library
