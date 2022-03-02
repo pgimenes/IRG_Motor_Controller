@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=MCP3464-E/ST
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=20
+Version=1.1
+Released=2020-09-01 13:29:29
+Downloaded=2022-02-07 15:34:22
+3D=Y

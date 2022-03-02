@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ADS8684IDBTR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "ADS8684IDBTR" (!) = "", "SOP50P640X120-38N", "Small Outline Packages", "595-ADS8684IDBTR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ADS8684IDBTR?qs=bZA2O%252B%252B1GJtoRViTqOt8bA%3D%3D", "ADS8684IDBTR", "https://www.arrow.com/en/products/ads8684idbtr/texas-instruments?region=nac", "SAR ADC with 16 bits, 4 channels, 500 kSPS, and bipolar inputs off +5V supply", "http://www.ti.com/lit/gpn/ads8684", "1.2 mm"
+END_PART
+
+END.

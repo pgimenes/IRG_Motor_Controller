@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX1169BEUD+T
+D 58.6ksps, 16-Bit, 2-Wire Serial ADC in a 14-Pin TSSOP
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-18/DSA-340693.pdf
+$ENDCMP
+#
+#End Doc Library

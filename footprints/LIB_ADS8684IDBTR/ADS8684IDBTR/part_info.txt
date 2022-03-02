@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=ADS8684IDBTR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=38
+Version=1.1
+Released=2017-11-28 11:54:01
+Downloaded=2022-02-02 16:03:11
+3D=Y

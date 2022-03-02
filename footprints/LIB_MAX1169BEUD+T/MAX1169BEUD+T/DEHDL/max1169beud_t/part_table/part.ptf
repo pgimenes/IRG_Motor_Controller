@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MAX1169BEUD_T'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Maxim Integrated", "MAX1169BEUD+T" (!) = "", "SOP65P640X110-14N", "Small Outline Packages", "700-MAX1169BEUD+T", "https://www.mouser.com/Search/Refine.aspx?Keyword=700-MAX1169BEUD%2BT", "", "", "58.6ksps, 16-Bit, 2-Wire Serial ADC in a 14-Pin TSSOP", "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-18/DSA-340693.pdf", "1.1 mm"
+END_PART
+
+END.

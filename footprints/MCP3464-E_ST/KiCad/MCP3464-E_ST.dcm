@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP3464-E_ST
+D Analog to Digital Converters - ADC
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/a32d2ac5ea678adff168c57dcbce46ff.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,18 @@
+.MCP3464-E_ST :1 ;Analog to Digital Converters - ADC
+SOP65P640X120-20N
+*STM IC
+*NGS
+*PLB 1="AVDD" 2="AGND" 3="REFIN-" 4="REFIN+" 5="CH0" 6="CH1" 7="CH2" 8="CH3" 9="CH4" 10="CH5" 11="CH6" 12="CH7" 13="'CS'" 14="SCK" 15="SDI" 16="SDO" 17="'IRQ'/MDAT" 18="MCLKIN" 19="DGND" 20="DVDD"
+*MXP 20
+*DFN MCP3464-E_ST
+~!Manufacturer_Name (Microchip)
+~!Manufacturer_Part_Number (MCP3464-E/ST)
+~!Mouser Part Number (579-MCP3464-E/ST)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP3464-E-ST?qs=xZ%2FP%252Ba9zWqaupsFaXBxOow%3D%3D)
+~!Arrow Part Number (MCP3464-E/ST)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/mcp3464-est/microchip-technology?region=nac)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/a32d2ac5ea678adff168c57dcbce46ff.pdf)
+~!Height (1.2mm)
+~!3D_Model (MCP3464-E_ST)
+MCP3464-E_ST
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 20.1!U 19.1!U 18.1!U 17.1!U 16.1!U 15.1!U 14.1!U 13.1!U 12.1!U 11.1!U 

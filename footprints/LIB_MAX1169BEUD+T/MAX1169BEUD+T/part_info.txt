@@ -1,0 +1,9 @@
+Manufacturer=Maxim Integrated
+PartNumber=MAX1169BEUD+T
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=14
+Version=2.1
+Released=2017-01-11 21:24:41
+Downloaded=2022-02-07 14:42:07
+3D=Y

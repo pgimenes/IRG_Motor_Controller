@@ -131,6 +131,29 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Conn_01x03_Male-Connector
+#
+DEF Conn_01x03_Male-Connector J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Conn_01x03_Male-Connector" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 34 -95 0 -105 1 1 6 F
+S 34 5 0 -5 1 1 6 F
+S 34 105 0 95 1 1 6 F
+P 2 1 1 6 50 -100 34 -100 N
+P 2 1 1 6 50 0 34 0 N
+P 2 1 1 6 50 100 34 100 N
+X Pin_1 1 200 100 150 L 50 50 1 1 P
+X Pin_2 2 200 0 150 L 50 50 1 1 P
+X Pin_3 3 200 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Conn_02x05_Odd_Even-Connector_Generic
 #
 DEF Conn_02x05_Odd_Even-Connector_Generic J 0 40 Y N 1 F N
@@ -770,6 +793,50 @@ X COMP 6 400 -100 100 L 50 50 1 1 P
 X GND 7 -100 -500 100 U 50 50 1 1 W
 X SW 8 400 0 100 L 50 50 1 1 O
 X GNDPAD 9 0 -500 100 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# TSR_0.6-4850WI-TSR_0.6-4850WI
+#
+DEF TSR_0.6-4850WI-TSR_0.6-4850WI PS 0 30 Y Y 1 F N
+F0 "PS" 850 300 50 H V L CNN
+F1 "TSR_0.6-4850WI-TSR_0.6-4850WI" 850 200 50 H V L CNN
+F2 "TSR064850WI" 850 100 50 H I L CNN
+F3 "https://tracopower.com/tsr0-6wi-datasheet/" 850 0 50 H I L CNN
+F4 "0.6 Amp POL converter, industrial, ultra wide 9-72 VDC input, pos.-pos. circuit, LM78 compatible, SIP-3" 850 -100 50 H I L CNN "Description"
+F5 "13.4" 850 -200 50 H I L CNN "Height"
+F6 "Traco Power" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TSR 0.6-4850WI" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "495-TSR0.6-4850WI" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/TRACO-Power/TSR-06-4850WI?qs=XeJtXLiO41Rcokt0mbEtGQ%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+X +VIN 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X +VOUT 3 0 -200 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# TSR_1-48150WI-TSR_1-48150WI
+#
+DEF TSR_1-48150WI-TSR_1-48150WI PS 0 30 Y Y 1 F N
+F0 "PS" 1350 300 50 H V L CNN
+F1 "TSR_1-48150WI-TSR_1-48150WI" 1350 200 50 H V L CNN
+F2 "TSR148120WI" 1350 100 50 H I L CNN
+F3 "https://tracopower.com/tsr1wi-datasheet/" 1350 0 50 H I L CNN
+F4 "1 Amp POL converter, industrial, ultra wide 9-72 VDC input, pos.-pos. circuit, LM78 compatible, SIP-3" 1350 -100 50 H I L CNN "Description"
+F5 "18" 1350 -200 50 H I L CNN "Height"
+F6 "Traco Power" 1350 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TSR 1-48150WI" 1350 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "495-TSR1-48150WI" 1350 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/TRACO-Power/TSR-1-48150WI?qs=XeJtXLiO41RIZxRMK3zaKg%3D%3D" 1350 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 1300 100 1300 -300 200 -300 200 100 N
+X +VIN 1 1500 0 200 L 50 50 0 0 P
+X GND 2 1500 -100 200 L 50 50 0 0 P
+X +VOUT 3 1500 -200 200 L 50 50 0 0 P
+X CASE_PIN_1 4 0 0 200 R 50 50 0 0 P
+X CASE_PIN_2 5 0 -100 200 R 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #

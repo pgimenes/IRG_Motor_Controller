@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ACS712ELCTR-30A-T
+D Fully Integrated, Hall-Effect-Based Linear Current Sensor IC with 2.1 kVRMS Voltage Isolation and a Low-Resistance Current Conductor
+K
+F https://www.allegromicro.com/-/media/files/datasheets/acs712-datasheet.ashx
+$ENDCMP
+#
+#End Doc Library

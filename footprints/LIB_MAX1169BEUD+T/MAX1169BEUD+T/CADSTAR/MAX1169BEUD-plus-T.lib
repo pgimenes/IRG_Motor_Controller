@@ -1,0 +1,18 @@
+.MAX1169BEUD-plus-T :1 ;58.6ksps, 16-Bit, 2-Wire Serial ADC in a 14-Pin TSSOP
+SOP65P640X110-14N
+*STM IC
+*NGS
+*PLB 1="DGND" 2="SCL" 3="SDA" 4="ADD2" 5="ADD1" 6="ADD0" 7="DVDD" 8="AVDD" 9="AGND" 10="AIN" 11="AGNDS" 12="REFADJ" 13="REF" 14="ADD3"
+*MXP 14
+*DFN MAX1169BEUD-plus-T
+~!Manufacturer_Name (Maxim Integrated)
+~!Manufacturer_Part_Number (MAX1169BEUD+T)
+~!Mouser Part Number (700-MAX1169BEUD+T)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=700-MAX1169BEUD%2BT)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-18/DSA-340693.pdf)
+~!Height (1.1mm)
+~!3D_Model (MAX1169BEUD+T)
+MAX1169BEUD-plus-T
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 14.1!U 13.1!U 12.1!U 11.1!U 10.1!U 9.1!U 8.1!U 

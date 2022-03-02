@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADS8684IDBTR
+D SAR ADC with 16 bits, 4 channels, 500 kSPS, and bipolar inputs off +5V supply
+K
+F http://www.ti.com/lit/gpn/ads8684
+$ENDCMP
+#
+#End Doc Library

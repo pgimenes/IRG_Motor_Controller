@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name "ACS712ELCTR-30A-T")(type "Legacy")(uri "/Users/tanmaylad/Documents/GitHub/IRG_Motor_Controller/footprints/LIB_ACS712ELCTR-30A-T/ACS712ELCTR-30A-T/KiCad/ACS712ELCTR-30A-T.mod")(options "")(descr ""))
+  (lib (name "ADS8684IDBTR")(type "Legacy")(uri "/Users/tanmaylad/Documents/GitHub/IRG_Motor_Controller/footprints/footprints/ADS8684IDBTR.mod")(options "")(descr ""))
+  (lib (name "MAX1169BEUD+T")(type "Legacy")(uri "/Users/tanmaylad/Documents/GitHub/IRG_Motor_Controller/footprints/footprints/MAX1169BEUD+T.mod")(options "")(descr ""))
+  (lib (name "MCP3464-E_ST")(type "Legacy")(uri "/Users/tanmaylad/Documents/GitHub/IRG_Motor_Controller/footprints/footprints/MCP3464-E_ST.mod")(options "")(descr ""))
+  (lib (name "LF33CV")(type "Legacy")(uri "/Users/tanmaylad/Documents/GitHub/IRG_Motor_Controller/footprints/footprints/LF33CV.mod")(options "")(descr ""))
+  (lib (name "IRS2003PBF")(type "KiCad")(uri "/Users/tanmaylad/Documents/GitHub/IRG_Motor_Controller/footprints/footprints/IRS2003PBF")(options "")(descr ""))
+)

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ACS712ELCTR_30A_T'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Allegro Microsystems", "ACS712ELCTR-30A-T" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "", "", "ACS712ELCTR-30A-T", "https://www.arrow.com/en/products/acs712elctr-30a-t/allegro-microsystems?region=nac", "Fully Integrated, Hall-Effect-Based Linear Current Sensor IC with 2.1 kVRMS Voltage Isolation and a Low-Resistance Current Conductor", "https://www.allegromicro.com/-/media/files/datasheets/acs712-datasheet.ashx", "1.75 mm"
+END_PART
+
+END.

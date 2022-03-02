@@ -1,0 +1,18 @@
+.ADS8684IDBTR :1 ;SAR ADC with 16 bits, 4 channels, 500 kSPS, and bipolar inputs off +5V supply
+SOP50P640X120-38N
+*STM IC
+*NGS
+*PLB 1="SDI" 2="'RST'/'PD'" 3="DAISY" 4="'REFSEL'" 5="REFIO" 6="REFGND" 7="REFCAP" 8="AGND_1" 9="AVDD_1" 10="AUX_IN" 11="AUX_GND" 12="NC_1" 13="NC_2" 14="NC_3" 15="NC_4" 16="AIN_0P" 17="AIN_0GND" 18="AIN_1P" 19="AIN_1GND" 20="AIN2_GND" 21="AIN_2P" 22="AIN_3GND" 23="AIN_3P" 24="NC_5" 25="NC_6" 26="NC_7" 27="NC_8" 28="AGND_2" 29="AGND_3" 30="AVDD_2" 31="AGND_4" 32="AGND_5" 33="DGND" 34="DVDD" 35="DNC" 36="SDO" 37="SCLK" 38="'CS'"
+*MXP 38
+*DFN ADS8684IDBTR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (ADS8684IDBTR)
+~!Mouser Part Number (595-ADS8684IDBTR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ADS8684IDBTR?qs=bZA2O%252B%252B1GJtoRViTqOt8bA%3D%3D)
+~!Arrow Part Number (ADS8684IDBTR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/ads8684idbtr/texas-instruments?region=nac)
+~!Link Datasheet (http://www.ti.com/lit/gpn/ads8684)
+~!Height (1.2mm)
+~!3D_Model (ADS8684IDBTR)
+ADS8684IDBTR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 38.1!U 37.1!U 36.1!U 35.1!U 34.1!U 33.1!U 32.1!U 31.1!U 30.1!U 29.1!U 28.1!U 27.1!U 26.1!U 25.1!U 24.1!U 23.1!U 22.1!U 21.1!U 20.1!U 
