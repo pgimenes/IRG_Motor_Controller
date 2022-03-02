@@ -5,4 +5,6 @@
   (lib (name "MCP3464-E_ST")(type "Legacy")(uri "/Users/tanmaylad/Documents/GitHub/IRG_Motor_Controller/footprints/footprints/MCP3464-E_ST.mod")(options "")(descr ""))
   (lib (name "LF33CV")(type "Legacy")(uri "/Users/tanmaylad/Documents/GitHub/IRG_Motor_Controller/footprints/footprints/LF33CV.mod")(options "")(descr ""))
   (lib (name "IRS2003PBF")(type "KiCad")(uri "/Users/tanmaylad/Documents/GitHub/IRG_Motor_Controller/footprints/footprints/IRS2003PBF")(options "")(descr ""))
+  (lib (name "KiCad")(type "KiCad")(uri "/Users/tanmaylad/Documents/GitHub/IRG_Motor_Controller/footprints/TK72E12N1,S1X_S/KiCad")(options "")(descr ""))
+  (lib (name "TK72E12N1,S1X_S")(type "KiCad")(uri "/Users/tanmaylad/Documents/GitHub/IRG_Motor_Controller/footprints/TK72E12N1,S1X_S")(options "")(descr ""))
 )

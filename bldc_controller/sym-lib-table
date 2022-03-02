@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name bldc_controller-rescue)(type Legacy)(uri ${KIPRJMOD}/bldc_controller-rescue.lib)(options "")(descr ""))
+  (lib (name "bldc_controller-rescue")(type "Legacy")(uri "${KIPRJMOD}/bldc_controller-rescue.lib")(options "")(descr ""))
+  (lib (name "TK72E12N1_S1X_S")(type "Legacy")(uri "/Users/tanmaylad/Documents/GitHub/IRG_Motor_Controller/footprints/TK72E12N1,S1X_S/TK72E12N1_S1X_S.lib")(options "")(descr ""))
 )

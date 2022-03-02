@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TK72E12N1,S1X_S
+D Toshiba TK72E12N1,S1X(S N-channel MOSFET Transistor, 72 A, 120 V, 3-Pin TO-220
+K
+F http://toshiba.semicon-storage.com/info/docget.jsp?did=13466&prodName=TK72E12N1
+$ENDCMP
+#
+#End Doc Library
