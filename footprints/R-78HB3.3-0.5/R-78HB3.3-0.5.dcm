@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP R-78HB3.3-0.5
+D Recom Switching Regulator, 9  72V Input, 3.3V Output, 0.5A
+K
+F https://www.recom-power.com/pdf/Innoline/R-78HBxx-0.5_L.pdf
+$ENDCMP
+#
+#End Doc Library

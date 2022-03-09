@@ -7,4 +7,7 @@
   (lib (name "IRS2003PBF")(type "KiCad")(uri "/Users/tanmaylad/Documents/GitHub/IRG_Motor_Controller/footprints/footprints/IRS2003PBF")(options "")(descr ""))
   (lib (name "KiCad")(type "KiCad")(uri "/Users/tanmaylad/Documents/GitHub/IRG_Motor_Controller/footprints/TK72E12N1,S1X_S/KiCad")(options "")(descr ""))
   (lib (name "TK72E12N1,S1X_S")(type "KiCad")(uri "/Users/tanmaylad/Documents/GitHub/IRG_Motor_Controller/footprints/TK72E12N1,S1X_S")(options "")(descr ""))
+  (lib (name "TSR_1-48150")(type "KiCad")(uri "/Users/tanmaylad/Documents/GitHub/IRG_Motor_Controller/footprints/TSR_1-48150WI-pcb-part-libraries/SamacSys_Parts.pretty")(options "")(descr ""))
+  (lib (name "R-78HB3.3-0")(type "KiCad")(uri "/Users/tanmaylad/Documents/GitHub/IRG_Motor_Controller/footprints/R-78HB3.3-0.5")(options "")(descr ""))
+  (lib (name "TSR_0")(type "KiCad")(uri "/Users/tanmaylad/Documents/GitHub/IRG_Motor_Controller/footprints/TSR_0.6-4850WI")(options "")(descr ""))
 )
